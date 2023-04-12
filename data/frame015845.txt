@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 218 351 528 613
+	type: car
+plate: APK5336
+position_plate: 448 821 130 46
+	char 1: 458 843 12 18
+	char 2: 472 841 14 19
+	char 3: 488 841 13 18
+	char 4: 512 838 12 19
+	char 5: 527 837 12 19
+	char 6: 542 836 13 19
+	char 7: 557 835 13 19
+
+position_vehicle: 1049 0 431 155
+	type: car
+plate: MCF4688
+position_plate: 1090 40 70 31
+	char 1: 1094 48 10 14
+	char 2: 1103 50 9 12
+	char 3: 1111 51 9 12
+	char 4: 1123 54 8 12
+	char 5: 1131 54 9 13
+	char 6: 1139 56 8 12
+	char 7: 1147 57 9 12
+
+position_vehicle: 824 290 676 613
+	type: car
+plate: JTB6050
+position_plate: 1241 853 109 38
+	char 1: 1250 869 13 17
+	char 2: 1263 868 12 17
+	char 3: 1275 867 12 17
+	char 4: 1294 865 12 16
+	char 5: 1307 863 12 17
+	char 6: 1319 861 12 18
+	char 7: 1331 860 13 17

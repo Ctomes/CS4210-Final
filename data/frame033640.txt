@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 472 483 243 500
+	type: motorcycle
+plate: AUL8921
+position_plate: 607 830 59 46
+	char 1: 619 844 9 15
+	char 2: 632 843 11 15
+	char 3: 647 842 11 15
+	char 4: 617 860 10 13
+	char 5: 628 858 10 14
+	char 6: 639 857 10 15
+	char 7: 653 856 4 15

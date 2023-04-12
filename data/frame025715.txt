@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 0 0 399 299
+	type: car
+plate: AZC3330
+position_plate: 159 200 89 33
+	char 1: 165 214 10 16
+	char 2: 175 214 12 16
+	char 3: 187 214 10 15
+	char 4: 202 213 11 15
+	char 5: 214 213 10 15
+	char 6: 224 212 11 16
+	char 7: 235 212 11 15
+
+position_vehicle: 792 52 486 404
+	type: car
+plate: AXL9542
+position_plate: 1077 389 80 27
+	char 1: 1082 399 10 15
+	char 2: 1092 398 10 16
+	char 3: 1102 398 9 15
+	char 4: 1117 398 9 14
+	char 5: 1127 397 9 15
+	char 6: 1136 396 9 15
+	char 7: 1146 396 9 15
+
+position_vehicle: 1397 0 482 309
+	type: car
+plate: AVE7452
+position_plate: 1698 258 73 26
+	char 1: 1705 266 9 15
+	char 2: 1714 267 9 14
+	char 3: 1722 267 9 14
+	char 4: 1735 268 8 14
+	char 5: 1743 268 8 14
+	char 6: 1751 269 9 13
+	char 7: 1758 269 10 13

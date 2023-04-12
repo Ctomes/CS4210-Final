@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 638 0 454 340
+	type: car
+plate: AWE4172
+position_plate: 893 308 80 26
+	char 1: 898 316 10 15
+	char 2: 908 317 9 14
+	char 3: 918 316 9 14
+	char 4: 932 316 9 14
+	char 5: 943 316 5 14
+	char 6: 950 316 9 14
+	char 7: 959 316 10 14
+
+position_vehicle: 1305 4 451 348
+	type: car
+plate: ARV8566
+position_plate: 1600 224 75 27
+	char 1: 1605 233 8 14
+	char 2: 1613 233 10 15
+	char 3: 1623 233 9 14
+	char 4: 1635 234 9 14
+	char 5: 1644 234 9 14
+	char 6: 1653 234 9 15
+	char 7: 1662 235 9 13

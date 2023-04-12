@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1346 287 552 479
+	type: car
+plate: AVH3278
+position_plate: 1688 622 104 36
+	char 1: 1695 634 12 18
+	char 2: 1709 634 11 18
+	char 3: 1719 635 14 17
+	char 4: 1736 636 14 17
+	char 5: 1749 636 13 17
+	char 6: 1762 637 12 17
+	char 7: 1773 637 12 17

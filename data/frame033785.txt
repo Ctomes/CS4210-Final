@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 837 32 678 737
+	type: car
+plate: AWS8197
+position_plate: 1250 651 100 38
+	char 1: 1256 667 11 19
+	char 2: 1268 666 12 19
+	char 3: 1280 666 11 18
+	char 4: 1297 665 12 18
+	char 5: 1312 664 5 18
+	char 6: 1320 664 12 17
+	char 7: 1332 664 12 17

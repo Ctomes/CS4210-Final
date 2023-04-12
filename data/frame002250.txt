@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 175 97 401 443
+	type: car
+plate: AQJ3449
+position_plate: 344 471 101 33
+	char 1: 351 483 10 16
+	char 2: 362 483 12 16
+	char 3: 375 481 11 17
+	char 4: 393 481 11 17
+	char 5: 405 480 10 18
+	char 6: 416 481 11 16
+	char 7: 428 482 11 15
+
+position_vehicle: 899 0 413 348
+	type: car
+plate: AYD5870
+position_plate: 1124 302 78 25
+	char 1: 1128 309 10 16
+	char 2: 1138 309 10 15
+	char 3: 1147 309 10 15
+	char 4: 1161 310 10 14
+	char 5: 1171 310 8 14
+	char 6: 1180 310 9 15
+	char 7: 1189 311 9 14
+
+position_vehicle: 1423 0 443 343
+	type: car
+plate: AWS7870
+position_plate: 1695 264 74 26
+	char 1: 1700 271 8 15
+	char 2: 1709 271 8 15
+	char 3: 1717 272 9 14
+	char 4: 1730 273 9 14
+	char 5: 1739 273 9 14
+	char 6: 1748 274 8 14
+	char 7: 1756 274 9 14

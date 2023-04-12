@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 193 0 317 144
+	type: car
+plate: PVD3953
+position_plate: 324 96 77 23
+	char 1: 328 103 9 13
+	char 2: 338 103 8 13
+	char 3: 347 103 9 13
+	char 4: 360 103 9 14
+	char 5: 369 103 10 14
+	char 6: 379 103 9 14
+	char 7: 388 104 9 13
+
+position_vehicle: 737 0 1183 1076
+	type: car
+plate: ALJ8231
+position_plate: 1512 881 120 46
+	char 1: 1521 903 19 22
+	char 2: 1539 903 14 20
+	char 3: 1553 901 16 21
+	char 4: 1572 899 15 21
+	char 5: 1585 898 16 21
+	char 6: 1598 897 15 20
+	char 7: 1614 895 9 20

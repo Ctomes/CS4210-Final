@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 910 0 255 69
+	type: car
+plate: AYD5870
+position_plate: 1008 9 61 24
+	char 1: 1011 15 8 13
+	char 2: 1019 15 8 13
+	char 3: 1026 17 8 12
+	char 4: 1037 18 8 12
+	char 5: 1045 18 8 13
+	char 6: 1052 19 8 12
+	char 7: 1060 20 7 12
+
+position_vehicle: 877 215 607 562
+	type: car
+plate: AYP0185
+position_plate: 1242 730 105 35
+	char 1: 1250 743 11 18
+	char 2: 1263 743 12 18
+	char 3: 1274 742 12 18
+	char 4: 1292 742 12 17
+	char 5: 1307 741 6 18
+	char 6: 1316 741 11 17
+	char 7: 1327 740 13 17

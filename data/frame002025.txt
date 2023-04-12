@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 150 0 334 189
+	type: car
+plate: AYY5697
+position_plate: 289 146 79 25
+	char 1: 293 153 10 16
+	char 2: 302 153 11 16
+	char 3: 312 153 10 16
+	char 4: 326 153 11 15
+	char 5: 336 153 10 15
+	char 6: 345 153 11 15
+	char 7: 355 153 10 15

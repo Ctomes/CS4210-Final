@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 155 0 315 117
+	type: car
+plate: AYS3071
+position_plate: 284 54 73 24
+	char 1: 289 62 8 13
+	char 2: 297 62 9 13
+	char 3: 306 62 9 13
+	char 4: 319 63 9 12
+	char 5: 328 63 9 12
+	char 6: 337 62 8 13
+	char 7: 348 62 4 14
+
+position_vehicle: 955 336 683 604
+	type: car
+plate: MMQ3739
+position_plate: 1407 787 108 41
+	char 1: 1414 806 13 18
+	char 2: 1428 805 12 19
+	char 3: 1440 805 13 17
+	char 4: 1459 802 13 18
+	char 5: 1473 801 11 19
+	char 6: 1485 800 12 18
+	char 7: 1497 799 12 18

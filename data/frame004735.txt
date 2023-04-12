@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 935 0 380 263
+	type: car
+plate: AKS6858
+position_plate: 1127 213 76 26
+	char 1: 1132 222 8 13
+	char 2: 1141 222 10 14
+	char 3: 1150 223 9 12
+	char 4: 1163 223 9 13
+	char 5: 1172 224 8 12
+	char 6: 1180 224 9 13
+	char 7: 1189 224 10 13
+
+position_vehicle: 1408 0 282 116
+	type: car
+plate: ABK1199
+position_plate: 1540 14 62 26
+	char 1: 1543 21 8 12
+	char 2: 1551 22 8 12
+	char 3: 1558 23 9 11
+	char 4: 1571 24 5 12
+	char 5: 1578 25 6 12
+	char 6: 1584 27 8 11
+	char 7: 1592 28 8 11
+
+position_vehicle: 1570 597 350 483
+	type: motorcycle
+plate: AXD2096
+position_plate: 1827 963 60 56
+	char 1: 1838 980 10 19
+	char 2: 1852 978 12 19
+	char 3: 1867 976 11 19
+	char 4: 1836 998 12 17
+	char 5: 1848 996 11 18
+	char 6: 1860 996 10 17
+	char 7: 1871 994 10 17

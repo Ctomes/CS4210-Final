@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1080 0 391 351
+	type: car
+plate: ATV3075
+position_plate: 1293 302 79 29
+	char 1: 1299 311 10 16
+	char 2: 1308 311 10 16
+	char 3: 1318 312 9 15
+	char 4: 1330 312 10 16
+	char 5: 1340 313 10 15
+	char 6: 1349 313 9 15
+	char 7: 1357 313 11 15

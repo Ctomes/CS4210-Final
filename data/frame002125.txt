@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 142 123 428 493
+	type: car
+plate: ANB7273
+position_plate: 330 556 95 29
+	char 1: 333 567 11 15
+	char 2: 345 565 11 17
+	char 3: 357 565 11 15
+	char 4: 373 563 11 17
+	char 5: 385 563 12 15
+	char 6: 397 562 11 18
+	char 7: 410 562 10 15
+
+position_vehicle: 711 0 431 365
+	type: car
+plate: MJK6609
+position_plate: 962 300 79 28
+	char 1: 968 310 9 15
+	char 2: 977 310 9 14
+	char 3: 987 309 8 15
+	char 4: 1000 309 9 14
+	char 5: 1010 309 9 14
+	char 6: 1019 308 9 14
+	char 7: 1028 308 9 14
+
+position_vehicle: 1478 18 442 328
+	type: car
+plate: AQV7842
+position_plate: 1770 254 77 26
+	char 1: 1774 263 9 13
+	char 2: 1783 264 11 13
+	char 3: 1794 264 9 13
+	char 4: 1806 265 9 12
+	char 5: 1814 266 10 12
+	char 6: 1823 266 10 13
+	char 7: 1831 267 11 12

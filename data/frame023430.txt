@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 922 325 208 454
+	type: motorcycle
+plate: AWI9534
+position_plate: 1044 652 57 49
+	char 1: 1056 668 8 15
+	char 2: 1068 667 9 14
+	char 3: 1085 667 4 14
+	char 4: 1054 684 10 15
+	char 5: 1065 683 9 15
+	char 6: 1075 682 10 15
+	char 7: 1086 682 9 14

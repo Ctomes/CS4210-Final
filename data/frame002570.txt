@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1298 0 290 141
+	type: car
+plate: ARV8566
+position_plate: 1439 15 66 26
+	char 1: 1443 23 7 11
+	char 2: 1450 24 8 12
+	char 3: 1459 24 7 12
+	char 4: 1469 25 8 12
+	char 5: 1477 26 8 12
+	char 6: 1485 27 8 11
+	char 7: 1492 28 8 11

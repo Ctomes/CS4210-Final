@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 524 599 296 480
+	type: motorcycle
+plate: AWJ2019
+position_plate: 669 963 70 57
+	char 1: 682 979 12 19
+	char 2: 696 977 15 20
+	char 3: 716 975 13 20
+	char 4: 680 998 14 20
+	char 5: 693 997 13 20
+	char 6: 709 995 7 21
+	char 7: 718 994 15 21
+
+position_vehicle: 865 198 562 523
+	type: car
+plate: AVI4981
+position_plate: 1214 581 101 33
+	char 1: 1222 593 11 18
+	char 2: 1233 592 12 19
+	char 3: 1247 591 7 19
+	char 4: 1262 590 12 20
+	char 5: 1274 591 11 17
+	char 6: 1285 591 12 17
+	char 7: 1300 590 4 18

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 377 348 270 479
+	type: motorcycle
+plate: FXD0960
+position_plate: 499 714 55 41
+	char 1: 508 728 10 14
+	char 2: 522 727 10 14
+	char 3: 536 728 10 13
+	char 4: 506 742 10 11
+	char 5: 517 741 9 12
+	char 6: 528 741 9 12
+	char 7: 538 740 10 13

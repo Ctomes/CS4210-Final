@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 899 0 266 82
+	type: car
+plate: IPJ9832
+position_plate: 1001 11 64 25
+	char 1: 1007 19 5 12
+	char 2: 1013 19 8 12
+	char 3: 1020 19 9 13
+	char 4: 1032 21 7 12
+	char 5: 1039 21 8 12
+	char 6: 1046 22 8 11
+	char 7: 1054 22 8 13
+
+position_vehicle: 900 338 654 591
+	type: car
+plate: MJK6609
+position_plate: 1311 863 107 39
+	char 1: 1318 879 12 20
+	char 2: 1331 877 12 19
+	char 3: 1343 876 13 19
+	char 4: 1362 874 12 19
+	char 5: 1375 872 12 20
+	char 6: 1388 871 11 19
+	char 7: 1400 870 12 19

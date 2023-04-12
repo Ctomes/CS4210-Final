@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1002 237 629 577
+	type: car
+plate: AYD5870
+position_plate: 1387 767 100 31
+	char 1: 1395 776 10 18
+	char 2: 1408 775 11 18
+	char 3: 1419 775 12 17
+	char 4: 1438 774 11 18
+	char 5: 1449 774 12 17
+	char 6: 1462 773 11 18
+	char 7: 1474 773 11 17

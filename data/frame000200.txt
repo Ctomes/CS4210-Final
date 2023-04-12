@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 765 0 445 317
+	type: car
+plate: CHP3886
+position_plate: 1029 217 71 21
+	char 1: 1037 226 8 11
+	char 2: 1044 225 8 12
+	char 3: 1052 226 8 11
+	char 4: 1062 225 8 12
+	char 5: 1070 225 7 12
+	char 6: 1077 225 8 13
+	char 7: 1085 224 8 13

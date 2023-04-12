@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 273 215 174 414
+	type: motorcycle
+plate: AWM6719
+position_plate: 357 513 56 45
+	char 1: 366 526 11 16
+	char 2: 380 524 11 17
+	char 3: 394 524 12 16
+	char 4: 366 542 10 15
+	char 5: 376 541 10 16
+	char 6: 390 540 5 16
+	char 7: 397 539 11 15
+
+position_vehicle: 678 0 437 299
+	type: car
+plate: ABW3744
+position_plate: 943 248 77 26
+	char 1: 948 257 9 15
+	char 2: 957 258 9 14
+	char 3: 966 257 10 15
+	char 4: 978 257 11 15
+	char 5: 989 257 9 14
+	char 6: 998 256 8 15
+	char 7: 1007 256 9 15
+
+position_vehicle: 1340 18 461 353
+	type: car
+plate: AMR1173
+position_plate: 1647 253 69 23
+	char 1: 1650 261 9 13
+	char 2: 1659 262 10 12
+	char 3: 1669 262 9 12
+	char 4: 1682 262 7 13
+	char 5: 1690 262 6 13
+	char 6: 1696 262 9 13
+	char 7: 1703 263 9 12

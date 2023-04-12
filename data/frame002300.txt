@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 803 0 428 387
+	type: car
+plate: AYP0185
+position_plate: 1037 337 80 26
+	char 1: 1043 346 9 15
+	char 2: 1052 346 10 15
+	char 3: 1061 346 11 15
+	char 4: 1076 347 10 14
+	char 5: 1088 347 5 15
+	char 6: 1095 347 10 14
+	char 7: 1105 347 9 15

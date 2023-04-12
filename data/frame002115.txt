@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 150 349 525 659
+	type: car
+plate: ANB7273
+position_plate: 383 944 117 38
+	char 1: 387 961 15 18
+	char 2: 402 956 15 21
+	char 3: 418 956 13 19
+	char 4: 438 954 13 19
+	char 5: 453 952 13 19
+	char 6: 467 951 14 21
+	char 7: 483 949 13 19
+
+position_vehicle: 795 149 529 462
+	type: car
+plate: MJK6609
+position_plate: 1114 546 91 33
+	char 1: 1120 559 11 17
+	char 2: 1131 558 11 16
+	char 3: 1142 557 10 17
+	char 4: 1158 556 10 17
+	char 5: 1169 556 10 16
+	char 6: 1179 555 11 16
+	char 7: 1190 554 10 16

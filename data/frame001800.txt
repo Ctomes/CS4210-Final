@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 130 246 517 611
+	type: car
+plate: BDI0509
+position_plate: 346 795 124 41
+	char 1: 355 813 14 19
+	char 2: 370 813 13 18
+	char 3: 389 811 5 19
+	char 4: 406 810 14 18
+	char 5: 422 808 12 19
+	char 6: 436 807 12 19
+	char 7: 450 806 13 19
+
+position_vehicle: 909 200 564 477
+	type: car
+plate: MEI7438
+position_plate: 1273 529 95 34
+	char 1: 1280 543 11 17
+	char 2: 1291 542 11 17
+	char 3: 1305 541 5 18
+	char 4: 1319 540 10 18
+	char 5: 1330 539 10 18
+	char 6: 1341 539 10 17
+	char 7: 1352 539 11 17

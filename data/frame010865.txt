@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 974 7 499 455
+	type: car
+plate: AYW5626
+position_plate: 1257 304 89 31
+	char 1: 1262 315 9 15
+	char 2: 1274 314 9 16
+	char 3: 1283 314 11 17
+	char 4: 1299 315 10 16
+	char 5: 1309 316 10 15
+	char 6: 1319 316 11 16
+	char 7: 1331 316 10 16

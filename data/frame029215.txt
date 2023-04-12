@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 666 0 1095 866
+	type: car
+plate: AKP2965
+position_plate: 1339 723 108 40
+	char 1: 1345 740 16 20
+	char 2: 1362 738 15 21
+	char 3: 1378 737 14 20
+	char 4: 1396 735 13 20
+	char 5: 1409 734 12 19
+	char 6: 1420 732 11 20
+	char 7: 1431 730 13 21
+
+position_vehicle: 1579 84 338 356
+	type: car
+plate: AQI1882
+position_plate: 1757 327 82 27
+	char 1: 1762 336 9 14
+	char 2: 1772 337 11 14
+	char 3: 1783 338 7 13
+	char 4: 1796 338 7 13
+	char 5: 1803 339 10 12
+	char 6: 1813 339 10 12
+	char 7: 1822 339 11 13

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 951 98 535 445
+	type: car
+plate: AJV6588
+position_plate: 1287 495 88 30
+	char 1: 1292 506 10 17
+	char 2: 1303 506 11 16
+	char 3: 1314 506 10 16
+	char 4: 1329 506 10 16
+	char 5: 1339 505 11 16
+	char 6: 1350 505 10 16
+	char 7: 1360 505 11 15
+
+position_vehicle: 1383 0 427 277
+	type: car
+plate: BCN0108
+position_plate: 1654 166 72 27
+	char 1: 1658 174 9 13
+	char 2: 1667 175 9 13
+	char 3: 1676 175 8 13
+	char 4: 1688 176 9 13
+	char 5: 1698 176 5 13
+	char 6: 1705 177 8 13
+	char 7: 1713 177 9 14

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 965 0 479 370
+	type: car
+plate: AYN9262
+position_plate: 1214 303 84 29
+	char 1: 1220 313 9 14
+	char 2: 1230 313 9 14
+	char 3: 1239 314 11 13
+	char 4: 1254 314 10 14
+	char 5: 1264 314 10 15
+	char 6: 1274 315 10 13
+	char 7: 1283 315 11 14

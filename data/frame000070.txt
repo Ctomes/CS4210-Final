@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 641 0 401 206
+	type: car
+plate: ARG4068
+position_plate: 878 159 71 25
+	char 1: 883 168 8 14
+	char 2: 891 168 9 14
+	char 3: 900 168 8 14
+	char 4: 912 168 8 13
+	char 5: 920 168 9 13
+	char 6: 929 168 8 13
+	char 7: 937 168 8 13
+
+position_vehicle: 1423 0 266 91
+	type: car
+plate: AZI4586
+position_plate: 1531 22 59 25
+	char 1: 1535 28 7 12
+	char 2: 1542 29 8 12
+	char 3: 1550 30 5 11
+	char 4: 1559 32 7 10
+	char 5: 1566 32 7 11
+	char 6: 1573 33 7 11
+	char 7: 1579 34 8 11

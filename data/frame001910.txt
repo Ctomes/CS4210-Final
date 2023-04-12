@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 239 296 503 614
+	type: car
+plate: AFU3791
+position_plate: 453 844 123 40
+	char 1: 462 859 13 20
+	char 2: 476 857 14 20
+	char 3: 491 856 13 20
+	char 4: 513 855 13 19
+	char 5: 527 854 13 19
+	char 6: 542 853 13 18
+	char 7: 560 852 6 18

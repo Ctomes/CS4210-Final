@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 803 121 626 573
+	type: car
+plate: HLI5658
+position_plate: 1213 535 96 37
+	char 1: 1220 551 11 18
+	char 2: 1232 551 10 17
+	char 3: 1246 551 5 16
+	char 4: 1261 548 10 17
+	char 5: 1272 548 10 17
+	char 6: 1283 547 11 17
+	char 7: 1294 546 11 17
+
+position_vehicle: 1322 0 490 376
+	type: car
+plate: BEA2590
+position_plate: 1626 266 78 27
+	char 1: 1631 274 9 14
+	char 2: 1640 274 10 15
+	char 3: 1648 274 9 15
+	char 4: 1662 275 10 15
+	char 5: 1671 276 10 14
+	char 6: 1680 276 9 14
+	char 7: 1689 277 9 14

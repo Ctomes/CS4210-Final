@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 162 356 576 716
+	type: car
+plate: AYS3071
+position_plate: 406 1001 137 47
+	char 1: 417 1022 14 21
+	char 2: 432 1020 15 21
+	char 3: 449 1019 15 21
+	char 4: 473 1016 15 21
+	char 5: 490 1015 14 21
+	char 6: 505 1013 15 21
+	char 7: 526 1012 5 21

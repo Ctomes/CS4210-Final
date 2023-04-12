@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 1290 10 204 316
+	type: motorcycle
+plate: AVT7013
+position_plate: 1388 222 37 38
+	char 1: 1393 231 9 12
+	char 2: 1403 232 9 13
+	char 3: 1413 234 8 12
+	char 4: 1391 242 8 12
+	char 5: 1399 244 7 10
+	char 6: 1408 245 4 11
+	char 7: 1413 246 7 11
+
+position_vehicle: 1485 43 435 408
+	type: car
+plate: AAR6088
+position_plate: 1839 404 78 25
+	char 1: 1843 412 10 15
+	char 2: 1853 412 9 14
+	char 3: 1862 412 10 14
+	char 4: 1875 413 10 14
+	char 5: 1885 413 9 13
+	char 6: 1894 413 9 13
+	char 7: 1902 413 10 13

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 666 0 271 64
+	type: car
+plate: ATV3199
+position_plate: 791 1 63 22
+	char 1: 796 8 8 13
+	char 2: 804 9 7 12
+	char 3: 810 8 8 13
+	char 4: 821 9 8 12
+	char 5: 830 9 4 12
+	char 6: 836 9 7 12
+	char 7: 843 9 8 12
+
+position_vehicle: 1398 172 257 361
+	type: motorcycle
+plate: AVT7013
+position_plate: 1533 425 41 40
+	char 1: 1539 435 9 14
+	char 2: 1550 436 10 14
+	char 3: 1561 437 9 14
+	char 4: 1537 448 8 13
+	char 5: 1546 449 8 13
+	char 6: 1556 450 4 13
+	char 7: 1562 451 8 12

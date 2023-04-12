@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 888 162 527 469
+	type: car
+plate: AVE5114
+position_plate: 1199 565 93 34
+	char 1: 1207 580 10 17
+	char 2: 1218 580 10 16
+	char 3: 1229 579 10 16
+	char 4: 1244 578 11 16
+	char 5: 1257 578 6 16
+	char 6: 1267 577 6 17
+	char 7: 1275 577 11 17
+
+position_vehicle: 1326 0 411 153
+	type: car
+plate: ACX0588
+position_plate: 1373 59 67 30
+	char 1: 1376 67 9 14
+	char 2: 1385 69 8 12
+	char 3: 1393 70 9 12
+	char 4: 1404 72 9 12
+	char 5: 1413 73 8 12
+	char 6: 1421 75 7 11
+	char 7: 1428 76 9 11
+
+position_vehicle: 1457 102 238 356
+	type: motorcycle
+plate: MHI0692
+position_plate: 1582 350 40 38
+	char 1: 1588 360 8 11
+	char 2: 1599 360 8 13
+	char 3: 1611 361 4 12
+	char 4: 1587 372 8 12
+	char 5: 1595 372 8 12
+	char 6: 1603 373 8 12
+	char 7: 1611 373 7 12

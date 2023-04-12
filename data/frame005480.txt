@@ -1,0 +1,36 @@
+vehicles: 3
+position_vehicle: 205 0 386 338
+	type: car
+plate: AXO2673
+position_plate: 383 219 90 29
+	char 1: 390 230 9 15
+	char 2: 400 229 11 18
+	char 3: 411 230 10 15
+	char 4: 427 229 11 16
+	char 5: 438 229 10 15
+	char 6: 448 229 10 15
+	char 7: 459 229 10 15
+
+position_vehicle: 655 0 516 214
+	type: car
+plate: AFD4146
+position_plate: 918 135 73 22
+	char 1: 921 141 10 15
+	char 2: 931 142 9 14
+	char 3: 939 142 10 13
+	char 4: 952 140 9 15
+	char 5: 962 140 6 15
+	char 6: 968 140 10 15
+	char 7: 978 140 10 14
+
+position_vehicle: 1381 0 355 222
+	type: car
+plate: IQN6245
+position_plate: 1582 103 67 26
+	char 1: 1587 111 4 13
+	char 2: 1593 112 8 12
+	char 3: 1601 112 10 13
+	char 4: 1614 113 8 13
+	char 5: 1622 114 9 13
+	char 6: 1631 114 8 13
+	char 7: 1639 115 9 12

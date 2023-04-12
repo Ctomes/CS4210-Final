@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 731 0 456 347
+	type: car
+plate: ARF6818
+position_plate: 997 303 77 23
+	char 1: 1002 310 8 14
+	char 2: 1011 309 9 15
+	char 3: 1020 309 10 15
+	char 4: 1033 309 10 14
+	char 5: 1043 309 9 14
+	char 6: 1054 308 5 14
+	char 7: 1061 308 9 14

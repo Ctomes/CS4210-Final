@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 203 176 511 603
+	type: car
+plate: AQI8810
+position_plate: 440 710 118 37
+	char 1: 448 725 13 18
+	char 2: 462 725 13 17
+	char 3: 480 724 5 17
+	char 4: 497 722 13 17
+	char 5: 511 721 12 17
+	char 6: 528 720 6 17
+	char 7: 538 719 13 16
+
+position_vehicle: 1168 249 647 554
+	type: car
+plate: ASM8305
+position_plate: 1572 761 101 34
+	char 1: 1578 774 11 18
+	char 2: 1590 774 12 17
+	char 3: 1602 773 12 17
+	char 4: 1619 774 12 16
+	char 5: 1631 773 12 17
+	char 6: 1643 773 11 17
+	char 7: 1654 773 13 16

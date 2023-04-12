@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 76 0 472 379
+	type: car
+plate: ACS2199
+position_plate: 273 312 95 32
+	char 1: 280 326 10 16
+	char 2: 290 326 12 15
+	char 3: 302 326 12 15
+	char 4: 318 325 13 16
+	char 5: 333 325 6 15
+	char 6: 341 324 12 16
+	char 7: 353 324 11 16

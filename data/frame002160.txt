@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 810 21 664 549
+	type: car
+plate: AYL4642
+position_plate: 1233 534 93 34
+	char 1: 1239 549 10 16
+	char 2: 1250 548 11 16
+	char 3: 1260 548 11 15
+	char 4: 1276 546 11 16
+	char 5: 1287 546 11 15
+	char 6: 1298 545 10 15
+	char 7: 1308 544 12 16

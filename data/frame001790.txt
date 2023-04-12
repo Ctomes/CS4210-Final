@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1043 423 729 641
+	type: car
+plate: MEI7438
+position_plate: 1538 895 115 43
+	char 1: 1547 914 13 20
+	char 2: 1561 912 13 21
+	char 3: 1578 910 5 21
+	char 4: 1595 908 11 22
+	char 5: 1607 907 12 20
+	char 6: 1621 906 11 20
+	char 7: 1634 905 12 20

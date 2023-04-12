@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1431 0 430 320
+	type: car
+plate: AZI4586
+position_plate: 1677 256 68 26
+	char 1: 1682 263 8 14
+	char 2: 1690 263 10 14
+	char 3: 1701 264 5 14
+	char 4: 1711 266 8 13
+	char 5: 1719 266 9 13
+	char 6: 1727 266 8 13
+	char 7: 1735 267 9 13

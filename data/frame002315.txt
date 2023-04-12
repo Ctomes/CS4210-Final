@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 112 21 452 497
+	type: car
+plate: AYT7491
+position_plate: 299 384 106 36
+	char 1: 308 398 11 16
+	char 2: 320 397 12 16
+	char 3: 332 397 12 16
+	char 4: 351 397 11 16
+	char 5: 363 396 12 17
+	char 6: 376 396 11 16
+	char 7: 391 396 6 16
+
+position_vehicle: 789 0 342 209
+	type: car
+plate: AYP0185
+position_plate: 952 158 72 26
+	char 1: 957 166 9 13
+	char 2: 966 166 9 14
+	char 3: 974 166 9 14
+	char 4: 986 167 10 13
+	char 5: 997 167 4 14
+	char 6: 1003 167 9 14
+	char 7: 1011 168 9 13

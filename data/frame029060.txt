@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 143 0 362 193
+	type: car
+plate: ATR7293
+position_plate: 292 131 82 26
+	char 1: 298 141 10 15
+	char 2: 308 141 9 15
+	char 3: 317 141 10 15
+	char 4: 330 142 10 14
+	char 5: 340 142 10 14
+	char 6: 350 142 10 14
+	char 7: 359 141 10 15
+
+position_vehicle: 822 0 424 340
+	type: car
+plate: ARY7269
+position_plate: 1058 298 80 24
+	char 1: 1063 305 9 16
+	char 2: 1072 305 10 15
+	char 3: 1082 305 10 15
+	char 4: 1096 306 9 14
+	char 5: 1105 306 10 14
+	char 6: 1115 306 9 14
+	char 7: 1124 306 10 14

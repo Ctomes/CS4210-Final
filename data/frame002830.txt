@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 888 187 799 650
+	type: car
+plate: AZT0112
+position_plate: 1396 773 103 38
+	char 1: 1404 788 10 20
+	char 2: 1415 787 13 20
+	char 3: 1428 786 13 19
+	char 4: 1446 785 12 17
+	char 5: 1460 783 7 19
+	char 6: 1473 781 6 19
+	char 7: 1482 781 13 19

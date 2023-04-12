@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 248 279 558 638
+	type: car
+plate: AUE2484
+position_plate: 516 850 123 45
+	char 1: 524 870 13 21
+	char 2: 538 870 15 20
+	char 3: 552 868 16 21
+	char 4: 574 866 15 21
+	char 5: 589 864 14 22
+	char 6: 603 865 15 20
+	char 7: 618 863 14 20
+
+position_vehicle: 800 0 685 531
+	type: car
+plate: AXO0463
+position_plate: 1128 380 86 31
+	char 1: 1133 391 9 17
+	char 2: 1143 390 11 18
+	char 3: 1154 391 10 16
+	char 4: 1168 391 12 16
+	char 5: 1180 390 9 17
+	char 6: 1190 390 10 16
+	char 7: 1200 390 11 16

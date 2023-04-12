@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 740 0 414 333
+	type: car
+plate: ASB1462
+position_plate: 974 260 78 28
+	char 1: 980 271 9 14
+	char 2: 989 271 9 14
+	char 3: 999 271 8 14
+	char 4: 1014 270 5 14
+	char 5: 1021 270 9 14
+	char 6: 1030 270 9 14
+	char 7: 1039 270 9 14
+
+position_vehicle: 1432 0 455 347
+	type: car
+plate: AXB0672
+position_plate: 1692 305 76 26
+	char 1: 1698 311 8 14
+	char 2: 1706 312 12 14
+	char 3: 1716 313 10 13
+	char 4: 1729 314 10 13
+	char 5: 1738 315 10 13
+	char 6: 1747 315 10 14
+	char 7: 1755 316 12 14

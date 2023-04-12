@@ -1,0 +1,48 @@
+vehicles: 4
+position_vehicle: 228 256 511 573
+	type: car
+plate: ANV2371
+position_plate: 470 666 109 43
+	char 1: 477 685 14 18
+	char 2: 492 684 15 18
+	char 3: 507 682 14 19
+	char 4: 527 682 12 18
+	char 5: 539 682 12 17
+	char 6: 552 681 10 18
+	char 7: 564 680 7 18
+
+position_vehicle: 751 105 473 399
+	type: car
+plate: AIG2126
+position_plate: 1034 390 90 30
+	char 1: 1038 405 10 13
+	char 2: 1051 404 7 14
+	char 3: 1059 404 11 14
+	char 4: 1074 403 12 14
+	char 5: 1087 403 7 14
+	char 6: 1094 402 13 14
+	char 7: 1106 401 10 13
+
+position_vehicle: 1436 203 235 382
+	type: motorcycle
+plate: AUU2544
+position_plate: 1614 471 42 32
+	char 1: 1623 479 6 12
+	char 2: 1631 479 8 11
+	char 3: 1641 479 7 12
+	char 4: 1622 491 7 9
+	char 5: 1630 490 6 10
+	char 6: 1637 491 6 9
+	char 7: 1644 491 6 10
+
+position_vehicle: 1424 0 414 300
+	type: car
+plate: ATZ8039
+position_plate: 1666 253 76 28
+	char 1: 1672 261 10 14
+	char 2: 1681 262 10 14
+	char 3: 1689 262 11 14
+	char 4: 1701 263 11 14
+	char 5: 1710 264 10 14
+	char 6: 1718 264 10 14
+	char 7: 1727 264 10 14

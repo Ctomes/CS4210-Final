@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 124 294 510 599
+	type: car
+plate: MHN0833
+position_plate: 350 742 126 45
+	char 1: 357 763 15 19
+	char 2: 373 762 14 19
+	char 3: 388 760 14 20
+	char 4: 410 760 14 17
+	char 5: 426 758 13 19
+	char 6: 441 757 13 18
+	char 7: 456 756 13 18
+
+position_vehicle: 923 0 348 231
+	type: car
+plate: INT2432
+position_plate: 1104 166 69 26
+	char 1: 1110 174 5 14
+	char 2: 1117 174 9 15
+	char 3: 1126 175 8 14
+	char 4: 1136 176 9 13
+	char 5: 1145 175 9 14
+	char 6: 1154 176 8 14
+	char 7: 1162 176 9 14

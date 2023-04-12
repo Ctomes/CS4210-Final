@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 753 268 201 414
+	type: motorcycle
+plate: AUI1453
+position_plate: 862 568 49 37
+	char 1: 872 579 8 13
+	char 2: 883 578 9 13
+	char 3: 897 577 5 13
+	char 4: 873 591 4 12
+	char 5: 879 590 9 12
+	char 6: 889 590 8 13
+	char 7: 897 589 9 13

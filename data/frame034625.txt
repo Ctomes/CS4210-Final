@@ -1,0 +1,48 @@
+vehicles: 4
+position_vehicle: 69 0 320 134
+	type: car
+plate: BEM4591
+position_plate: 194 21 80 26
+	char 1: 201 30 9 13
+	char 2: 210 31 10 12
+	char 3: 220 31 9 12
+	char 4: 234 30 8 13
+	char 5: 242 30 10 13
+	char 6: 253 31 8 12
+	char 7: 263 31 6 12
+
+position_vehicle: 648 0 366 174
+	type: car
+plate: ASL1909
+position_plate: 856 129 70 25
+	char 1: 861 138 8 14
+	char 2: 870 139 7 13
+	char 3: 878 139 8 13
+	char 4: 892 139 4 13
+	char 5: 898 139 8 13
+	char 6: 907 139 7 13
+	char 7: 915 139 8 13
+
+position_vehicle: 1449 193 245 387
+	type: motorcycle
+plate: HNC2785
+position_plate: 1632 485 40 35
+	char 1: 1640 494 8 12
+	char 2: 1649 496 8 11
+	char 3: 1658 497 8 11
+	char 4: 1637 505 8 11
+	char 5: 1645 506 6 10
+	char 6: 1651 507 7 10
+	char 7: 1658 508 7 10
+
+position_vehicle: 1418 0 442 266
+	type: car
+plate: AYJ4146
+position_plate: 1686 215 72 25
+	char 1: 1691 222 8 13
+	char 2: 1701 222 8 13
+	char 3: 1708 223 10 13
+	char 4: 1721 224 8 13
+	char 5: 1730 224 6 13
+	char 6: 1737 224 8 14
+	char 7: 1745 226 9 12

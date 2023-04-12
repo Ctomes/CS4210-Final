@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 107 88 403 460
+	type: car
+plate: ANR8988
+position_plate: 268 484 105 35
+	char 1: 276 498 11 17
+	char 2: 288 496 11 18
+	char 3: 300 496 12 18
+	char 4: 319 495 11 18
+	char 5: 331 495 11 17
+	char 6: 343 494 12 18
+	char 7: 355 494 13 17

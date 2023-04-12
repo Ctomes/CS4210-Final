@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1347 77 480 408
+	type: car
+plate: APH2716
+position_plate: 1634 421 87 28
+	char 1: 1639 430 10 16
+	char 2: 1649 431 11 15
+	char 3: 1660 431 10 15
+	char 4: 1673 432 12 14
+	char 5: 1684 432 11 14
+	char 6: 1696 432 6 14
+	char 7: 1704 433 11 13

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 159 0 341 241
+	type: car
+plate: AYI4280
+position_plate: 300 188 84 27
+	char 1: 306 198 9 15
+	char 2: 315 198 11 14
+	char 3: 328 198 5 14
+	char 4: 341 198 9 14
+	char 5: 350 198 10 14
+	char 6: 360 198 10 14
+	char 7: 370 197 10 15
+
+position_vehicle: 889 0 385 303
+	type: car
+plate: IPJ9832
+position_plate: 1087 241 76 26
+	char 1: 1094 250 5 14
+	char 2: 1100 250 10 14
+	char 3: 1109 250 10 14
+	char 4: 1123 251 9 13
+	char 5: 1132 251 9 14
+	char 6: 1141 251 9 14
+	char 7: 1150 252 9 13

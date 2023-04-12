@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1411 0 415 239
+	type: car
+plate: AYL3061
+position_plate: 1671 124 68 25
+	char 1: 1674 132 8 14
+	char 2: 1683 133 8 14
+	char 3: 1691 134 8 13
+	char 4: 1703 135 8 13
+	char 5: 1711 136 8 12
+	char 6: 1719 136 9 13
+	char 7: 1729 136 5 13

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 81 0 384 392
+	type: car
+plate: ATB0902
+position_plate: 235 255 94 30
+	char 1: 241 266 12 16
+	char 2: 253 266 10 16
+	char 3: 264 266 11 15
+	char 4: 281 265 11 16
+	char 5: 292 265 11 16
+	char 6: 304 265 11 16
+	char 7: 315 265 11 16
+
+position_vehicle: 1445 0 475 396
+	type: car
+plate: AXD4487
+position_plate: 1804 266 76 28
+	char 1: 1809 275 9 15
+	char 2: 1818 275 10 15
+	char 3: 1828 276 9 14
+	char 4: 1841 276 9 15
+	char 5: 1850 276 9 15
+	char 6: 1859 277 9 14
+	char 7: 1868 278 9 14

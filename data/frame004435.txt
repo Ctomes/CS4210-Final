@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1593 354 256 436
+	type: motorcycle
+plate: AYQ2048
+position_plate: 1760 655 51 49
+	char 1: 1768 667 9 15
+	char 2: 1781 668 10 16
+	char 3: 1794 671 10 15
+	char 4: 1766 682 9 14
+	char 5: 1776 683 9 14
+	char 6: 1786 685 8 15
+	char 7: 1795 687 9 14
