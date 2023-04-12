@@ -19,6 +19,7 @@ def read_class(data_file):
 			key_val = line.split(':')
 			key_val = [el.strip() for el in key_val]
 			if key_val[0] in ['position_vehicle', 'position_plate'] or 'char' in key_val[0]:
+				# Special case for position fields, adds dictionary of values to dictionary
 				vals = key_val[1].split()
 				data[current_vehicle][key_val[0]] = {}
 				data[current_vehicle][key_val[0]]['x'] = int(vals[0])
@@ -26,6 +27,7 @@ def read_class(data_file):
 				data[current_vehicle][key_val[0]]['width'] = int(vals[2])
 				data[current_vehicle][key_val[0]]['height'] = int(vals[3])
 			else:
+				# General case, adds to dictionary
 				data[current_vehicle][key_val[0]] = key_val[1]
 	return data
 
