@@ -1,6 +1,10 @@
 import os
 
 def read_class(data_file):
+	'''
+	input: string containing path to txt file w/frame data
+	Output: 1 to n elemnts of vehicle information in the form of a dictionary
+	'''
 	data = []
 	with open(data_file) as f:
 		current_vehicle = 0
@@ -31,6 +35,7 @@ def read_class(data_file):
 				data[current_vehicle][key_val[0]] = key_val[1]
 	return data
 
+'''
 data = []
 for file in os.listdir('data'):
 	if file.endswith('.txt'):
@@ -40,3 +45,4 @@ for file in os.listdir('data'):
 		#	print(vehicle)
 		#print()
 print(len(data))
+'''
