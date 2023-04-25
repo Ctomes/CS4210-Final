@@ -1,6 +1,6 @@
 import os
 
-def read_class(data_file):
+def readClass(data_file):
 	'''
 	input: string containing path to txt file w/frame data
 	Output: 1 to n elemnts of vehicle information in the form of a dictionary

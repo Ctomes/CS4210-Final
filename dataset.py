@@ -2,8 +2,7 @@ import os
 from PIL import Image
 import importlib
 import random
-readclass = importlib.import_module('read-class')
-read = readclass.read_class
+from read_class import readClass as read
 import numpy as np
 import cv2
 
