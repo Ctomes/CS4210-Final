@@ -8,13 +8,14 @@ import cv2
 
 
 class plateDataset():
-    def __init__(self, folder, randomize=True, do_augment=True, ext='jpg'):
+    def __init__(self, folder, randomize=True, do_augment=True, ext='jpg', outshape=(1080, 1920)):
         #TODO: implement randomized access mapping for fNames to increase epoch independency
         self.ext = ext
         self.folder = folder
         self.fNames = []
         self.randorder = randomize
         self.do_augment = do_augment
+        self.outshape = outshape
 
         #get all filenames w/o extension from dir
         for file in os.listdir(folder):
@@ -23,9 +24,7 @@ class plateDataset():
 
         #get randomization map for dataset
         self.randmap = [n for n in range(0, len(self.fNames))]
-        print(self.randmap)
         random.shuffle(self.randmap)
-        print(self.randmap)
     
     def __len__(self):
         return len(self.fNames)
@@ -42,13 +41,23 @@ class plateDataset():
 
         #get data
         im = Image.open(imPath)
-        gt = read(gtPath)
-        #TODO: get necessary ground truth (plate bounding box??? vehicle bounding box???)
+        im = np.asarray(im)
+        gtInfo = read(gtPath)
+        
+        #generate mask
+        gt = np.zeros(self.outshape)
+        for item in gtInfo:
+            x = item['position_plate']['x']
+            y = item['position_plate']['y']
+            x2 = x + item['position_plate']['width']
+            y2 = y + item['position_plate']['height']
 
+            gt[y:y2, x:x2] = 1
         #add random augmentation to input image
         if self.do_augment:
             im, gt = self.augment(im, gt)
 
+        im = (np.transpose(im, (2, 0, 1))/im.max())
         return (im, gt)
 
     def augment(self, im, gt):
