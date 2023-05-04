@@ -19,8 +19,6 @@ from Model import UNet, convNet
 from BoxStuff import imgcrops
 from read_class import readClass as read
 
-gtInfo = read("data/frame034160.txt")
-print(gtInfo)
 
 def main():
   #Part 1: Image crop to License plate
@@ -77,3 +75,6 @@ def main():
     plates.append(plate)
 
   print(plates)
+
+if __name__ == "__main__":
+    main()
