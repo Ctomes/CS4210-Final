@@ -8,7 +8,7 @@ import cv2
 
 
 class plateDataset():
-    def __init__(self, folder, randomize=True, do_augment=True, ext='jpg', outshape=(1080, 1920)):
+    def __init__(self, folder, randomize=True, do_augment=False, ext='jpg', outshape=(1080, 1920)):
         #TODO: implement randomized access mapping for fNames to increase epoch independency
         self.ext = ext
         self.folder = folder
@@ -58,7 +58,7 @@ class plateDataset():
             im, gt = self.augment(im, gt)
 
         im = (np.transpose(im, (2, 0, 1))/im.max())
-        return (im, gt)
+        return (im, (1-gt))
 
     def augment(self, im, gt):
         #TODO: add image augmentations to dataset, orientation changes, color shifts
