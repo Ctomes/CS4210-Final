@@ -1,47 +1,7 @@
 import torch.nn as nn
 import torch
 
-class testNet2(nn.Module):
-  def __init__(self, insize):
-    super().__init__()
-    #resize from the input layer to the target size, done in the forward function
-
-    #convolutional layer
-    #kernel size = 8x8
-    #padding = same
-    #input size is the depth of the image, index 0 in the parameters
-    self.conv1 = nn.Conv2d(insize[0], 1, 8, padding = 'same')
-    self.conv2 = nn.Conv2d(1, 6, 8, padding = 'same')
-    self.conv3 = nn.Conv2d(6, 3, 8, padding = 'same')
-    self.conv4 = nn.Conv2d(3, 1, 8, padding = 'same')
-    self.act = nn.ReLU()
-
-  def forward(self, image):
-
-    convolved1 = self.conv1(image)
-    convolved1 = self.act(convolved1)
-
-    convolved2 = self.conv2(convolved1)
-    convolved2 = self.act(convolved2)
-
-    convolved3 = self.conv3(convolved2)
-    convolved3 = self.act(convolved3)
-
-    convolved4 = self.conv4(convolved3)
-    return self.act(convolved4)
-
-class testNet(nn.Module):
-  def __init__(self, insize):
-    super().__init__()
-
-    #format of function names: FunctionType Layer#
-    self.convin = nn.Conv2d(insize[0], 1, 8, padding = 'same')
-    self.act = nn.ReLU()
-  
-  def forward(self, image):
-    convolve = self.convin(image)
-    return self.act(convolve)
-
+### PRODUCTION MODELS ###
 class UNet(nn.Module):
   def __init__(self, insize):
     super().__init__()
@@ -119,3 +79,82 @@ class UNet(nn.Module):
 
     #add batch normalization to fight exploding gradient problem
     return self.norm(out)
+  
+class convNet(nn.Module):
+  def __init__(self, insize):
+    super().__init__()
+
+    self.insize = insize
+
+    self.conv1 = nn.Conv2d(insize[0], 8, 3, padding = 'same')
+    self.conv2 = nn.Conv2d(8, 16, 2, padding = 'same') #channels = 16, but with 2 pooling layers, so div by 16
+
+    self.flat = nn.Flatten()
+
+    self.lin1 = nn.Linear(insize[1]*insize[2], insize[1]*insize[2]/2)
+    self.lin2 = nn.Linear(insize[1]*insize[2]/2, 36) #out to alphanumeric
+
+    self.pool = nn.MaxPool2d(2)
+    self.act = nn.ReLU()
+    self.out = nn.Softmax()
+
+  def forward(self, img):
+    conv1 = self.conv1(img)
+    conv1 = self.act(conv1)
+    conv1 = self.pool(conv1)
+
+    conv2 = self.conv2(conv1)
+    conv2 = self.act(conv2)
+    conv2 = self.pool(conv2)
+
+    midpt = self.flat(conv2)
+
+    lin1 = self.lin1(midpt)
+    lin1 = self.act(lin1)
+
+    lin2 = self.lin2(lin1)
+    lin2 = self.out(lin2)
+
+    return torch.argmax(lin2)
+  
+### TESTING MODELS ###
+class testNet2(nn.Module):
+  def __init__(self, insize):
+    super().__init__()
+    #resize from the input layer to the target size, done in the forward function
+
+    #convolutional layer
+    #kernel size = 8x8
+    #padding = same
+    #input size is the depth of the image, index 0 in the parameters
+    self.conv1 = nn.Conv2d(insize[0], 1, 8, padding = 'same')
+    self.conv2 = nn.Conv2d(1, 6, 8, padding = 'same')
+    self.conv3 = nn.Conv2d(6, 3, 8, padding = 'same')
+    self.conv4 = nn.Conv2d(3, 1, 8, padding = 'same')
+    self.act = nn.ReLU()
+
+  def forward(self, image):
+
+    convolved1 = self.conv1(image)
+    convolved1 = self.act(convolved1)
+
+    convolved2 = self.conv2(convolved1)
+    convolved2 = self.act(convolved2)
+
+    convolved3 = self.conv3(convolved2)
+    convolved3 = self.act(convolved3)
+
+    convolved4 = self.conv4(convolved3)
+    return self.act(convolved4)
+
+class testNet(nn.Module):
+  def __init__(self, insize):
+    super().__init__()
+
+    #format of function names: FunctionType Layer#
+    self.convin = nn.Conv2d(insize[0], 1, 8, padding = 'same')
+    self.act = nn.ReLU()
+  
+  def forward(self, image):
+    convolve = self.convin(image)
+    return self.act(convolve)
