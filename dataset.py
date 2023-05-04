@@ -40,8 +40,11 @@ class plateDataset():
         gtPath = f"{self.folder}/{self.fNames[index]}.txt"
 
         #get data
-        im = Image.open(imPath)
-        im = np.asarray(im)
+        im = cv2.imread(imPath)
+        #im = Image.open(imPath)
+        #im = np.asarray(im)
+        #print("thing1", np.shape(im))
+        #print("thing2", np.shape(cv2.imread(imPath)))
         gtInfo = read(gtPath)
         
         #generate mask

@@ -53,9 +53,9 @@ def display(imgs, names=['Input', 'True Mask', 'Predicted', 'Scaled Pred']):
         plt.subplot(1,len(imgs), i+1)
         plt.title(names[i])
         if imgs[i].ndim==3:
-            plt.imshow(imgs[i][:,:,0], vmax=1, vmin=0)
+            plt.imshow(imgs[i][:,:,0])
         else:
-            plt.imshow(imgs[i], vmax=1, vmin=0)
+            plt.imshow(imgs[i])
         plt.axis('off')
     plt.show()
 
