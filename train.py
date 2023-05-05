@@ -118,14 +118,18 @@ def train_model(opt, model, loss_fn, epochs, loader, device):
       yhat = yhat.unsqueeze(0)
     yhat = yhat.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(yhat))
-    plt.savefig(f'models/outputmask{i}.png')
+    plt.savefig(f'modelsTest/outputmask{i}.png')
 
     img = img.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(img))
-    plt.savefig(f'models/outputimg{i}.png')
+    plt.savefig(f'modelsTest/outputimg{i}.png')
+
+    #save the model
+    savepath = f'ModelWeights/UNet{i}.pt'
+    torch.save(model.state_dict(), savepath)
 
     #save to out.npy
-    np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
+    #np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
 
   
 if __name__ == '__main__':
