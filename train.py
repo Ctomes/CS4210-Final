@@ -40,7 +40,7 @@ def main():
     #set up dataloader(s)
     train_loader = torch.utils.data.DataLoader(newset, batch_size=1, shuffle=True, num_workers=0)
     
-    train_model(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 5, train_loader, train_device)
+    train_model(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 150, train_loader, train_device)
 
     #save the model
     savepath = 'ModelWeights/UNet1.pt'
@@ -101,7 +101,6 @@ def train_model(opt, model, loss_fn, epochs, loader, device):
       #calculate gradient
       loss.sum().backward()
 
-
       #step the optimizer
       opt.step()
 
@@ -110,12 +109,24 @@ def train_model(opt, model, loss_fn, epochs, loader, device):
 
       #save the first image (there is probably a cleaner way to do this)
       img, msk = images[0], masks[0]
-      if n%20 == 0:
+      if n%80 == 0 and i == 0:
         showPred(model, img, msk)
     #show the first image of the last batch at the end of the epoch
-    showPred(model, img, msk)
+    #showPred(model, img, msk)
+    yhat = model(img).squeeze()
+    if yhat.dim() < 3:
+      yhat = yhat.unsqueeze(0)
+    yhat = yhat.permute(1,2,0).detach().cpu()
+    plt.imshow(np.asarray(yhat))
+    plt.savefig(f'models/outputmask{i}.png')
+
+    img = img.permute(1,2,0).detach().cpu()
+    plt.imshow(np.asarray(img))
+    plt.savefig(f'models/outputimg{i}.png')
 
     #save to out.npy
-    #np.save('out.npy', y_pred.cpu().detach().numpy())
+    np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
+
+  
 if __name__ == '__main__':
   main()
