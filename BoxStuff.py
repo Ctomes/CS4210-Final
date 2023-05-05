@@ -5,7 +5,7 @@ import numpy as np
 #input, mask from model as a torch tensor
 #output, array of boxes for mask from model
 #boxes are quadruples of form: (x, y, h, w)
-def getBoxes(imgpred, threshold=.9999, blur=true):
+def getBoxes(imgpred, threshold=.9999, blur=True):
   #permute for using opencv stuff
   prebox = imgpred.permute(1, 2, 0).detach().cpu().numpy()
 
@@ -46,9 +46,10 @@ def imgcrops(model, img):
   torchimg = torch.from_numpy(img).float()
   torchimg = torch.permute(1, 2, 0)
   imgpred = model(torchimg)
+  predflipped = 1 - imgpred
 
   #return an array of cropped images from the boxes generated from the model
-  boxes = getBoxes(imgpred)
+  boxes = getBoxes(predflipped)
   cropped_imgs = cropsFromBoxes(img, boxes)
 
   return cropped_imgs

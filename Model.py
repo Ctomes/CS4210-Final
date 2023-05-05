@@ -78,7 +78,16 @@ class UNet(nn.Module):
       out = out.unsqueeze(0)
 
     #add batch normalization to fight exploding gradient problem
-    return self.norm(out)
+    out = self.norm(out)
+
+    return torch.clamp(out, 0, 1)
+  
+  #prevent zero initialization
+  def initialize_weights(self):
+    for m in self.modules():
+        if isinstance(m, nn.Conv2d) or isinstance(m, nn.Conv2dTranspose):
+          nn.init.xavier_normal_(m.weight)
+          nn.init.constant_(m.bias, 0)
   
 class convNet(nn.Module):
   def __init__(self, insize):

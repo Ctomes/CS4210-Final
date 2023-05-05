@@ -1,5 +1,5 @@
 import os
-from PIL import Image
+#from PIL import Image
 import importlib
 import random
 from read_class import readClass as read
@@ -60,6 +60,7 @@ class plateDataset():
         if self.do_augment:
             im, gt = self.augment(im, gt)
 
+        print(im.max())
         im = (np.transpose(im, (2, 0, 1))/im.max())
         return (im, (1-gt))
 
