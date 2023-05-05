@@ -23,7 +23,7 @@ from read_class import readClass as read
 def main():
   #Part 1: Image crop to License plate
   #model instantiation
-  loadpath = ''
+  loadpath = 'ModelWeights/UNet1.pt'
   params = (3, 1920, 1080) #expected image size
   plateModel = UNet(params)
   plateModel.load_state_dict(torch.load(loadpath))
@@ -38,7 +38,7 @@ def main():
 
   #Part 2: License plate crop to letters
   #specify the model to use
-  loadpath = ''
+  loadpath = 'ModelWeights/UNet2.pt'
   params = (3, 150, 50) #this IS a hyperparameter kinda, whatever we decide is the standard
   letterModel = UNet(params)
   letterModel.load_state_dict(torch.load(loadpath))
@@ -53,7 +53,7 @@ def main():
 
   #Part 3: Individual letters from previous models to overall string prediction
   #may want to test with grayscaling the image first
-  loadpath = ''
+  loadpath = 'ModelWeights/ConvNet3.pt'
   params = (3, 28, 28) #this IS a hyperparameter
   letterGuesser = convNet(params)
   letterGuesser.load_state_dict(torch.load(loadpath))
