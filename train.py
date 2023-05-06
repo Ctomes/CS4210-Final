@@ -1,4 +1,6 @@
 from dataset import plateDataset as pset
+from dataset import LetterSegDataset as segset
+
 import matplotlib.pyplot as plt
 import torch
 import numpy as np
@@ -18,10 +20,13 @@ def main():
     train_device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     #train_device = 'cpu'
     print(f'using device: {train_device}')
-    model = UNet((3, 1080, 1920)).to(train_device)
+    #model = UNet((3, 1080, 1920)).to(train_device)
+    model = UNet((3, 144, 48))
 
     #split dataset into training and testing
-    newset = pset('data')
+    #newset = pset('data')
+    newset = segset('data')
+  
     #validate input and output shape and mask locations
     '''
     n, m = newset[0]
@@ -40,10 +45,12 @@ def main():
     #set up dataloader(s)
     train_loader = torch.utils.data.DataLoader(newset, batch_size=1, shuffle=True, num_workers=0)
     
-    train_model(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 150, train_loader, train_device)
+    #train_model(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 150, train_loader, train_device)
+    train_model2(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 150, train_loader, train_device)
 
     #save the model
-    savepath = 'ModelWeights/UNet1.pt'
+    #savepath = 'ModelWeights/UNet1.pt'
+    savepath = 'ModelWeights/UNet2.pt'
     torch.save(model.state_dict(), savepath)
 
 def display(imgs, names=['Input', 'True Mask', 'Predicted', 'Scaled Pred']):
@@ -118,19 +125,66 @@ def train_model(opt, model, loss_fn, epochs, loader, device):
       yhat = yhat.unsqueeze(0)
     yhat = yhat.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(yhat))
-    plt.savefig(f'modelsTest/outputmask{i}.png')
+    plt.savefig(f'modelsTest/model1/outputmask{i}.png')
 
     img = img.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(img))
-    plt.savefig(f'modelsTest/outputimg{i}.png')
+    plt.savefig(f'modelsTest/model1/outputimg{i}.png')
 
     #save the model
-    savepath = f'ModelWeights/UNet{i}.pt'
+    savepath = f'ModelWeights/Model1/UNet{i}.pt'
     torch.save(model.state_dict(), savepath)
 
     #save to out.npy
     #np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
 
-  
+# this training loop works when each item returns a set of images and masks (before batching)
+def train_model2(opt, model, loss_fn, epochs, loader, device):
+  print(f'train device: {device}')
+  for i in range(epochs):
+    print(f"epoch: {i}")
+    for n, combo in enumerate(loader):
+      imageset, maskset = combo
+      imageset = [img.squeeze() for img in imageset]
+
+      images = torch.stack(imageset, 0).to(device=device, dtype=torch.float32)
+      masks = torch.stack(maskset, 0).to(device=device, dtype=torch.float32)
+      
+      #zero gradients
+      opt.zero_grad()
+
+      #forward
+      y_pred = model(images)
+      #evaluate loss
+      loss = loss_fn(y_pred, masks.float()).to(device)
+      #calculate gradient
+      loss.sum().backward()
+
+      #step the optimizer
+      opt.step()
+
+      #print the loss
+      print(f"loss: {loss.sum()}")
+
+      #save the first image (there is probably a cleaner way to do this)
+      img, msk = images[0], masks[0]
+      if n%80 == 0 and i == 0:
+        showPred(model, img, msk)
+    #show the first image of the last batch at the end of the epoch
+    #showPred(model, img, msk)
+    yhat = model(img).squeeze()
+    if yhat.dim() < 3:
+      yhat = yhat.unsqueeze(0)
+    yhat = yhat.permute(1,2,0).detach().cpu()
+    plt.imshow(np.asarray(yhat))
+    plt.savefig(f'modelsTest/model2/outputmask{i}.png')
+
+    img = img.permute(1,2,0).detach().cpu()
+    plt.imshow(np.asarray(img))
+    plt.savefig(f'modelsTest/model2/outputimg{i}.png')
+
+    #save to out.npy
+    #np.save(f'models/model2/out{i}.npy', y_pred.cpu().detach().numpy())
+
 if __name__ == '__main__':
   main()
