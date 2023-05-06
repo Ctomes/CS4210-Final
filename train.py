@@ -124,14 +124,18 @@ def train_model(opt, model, loss_fn, epochs, loader, device):
       yhat = yhat.unsqueeze(0)
     yhat = yhat.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(yhat))
-    plt.savefig(f'models/model1/outputmask{i}.png')
+    plt.savefig(f'modelsTest/model1/outputmask{i}.png')
 
     img = img.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(img))
-    plt.savefig(f'models/model1/outputimg{i}.png')
+    plt.savefig(f'modelsTest/model1/outputimg{i}.png')
+
+    #save the model
+    savepath = f'ModelWeights/Model1/UNet{i}.pt'
+    torch.save(model.state_dict(), savepath)
 
     #save to out.npy
-    np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
+    #np.save(f'models/out{i}.npy', y_pred.cpu().detach().numpy())
 
 # this training loop works when each item returns a set of images and masks (before batching)
 def train_model2(opt, model, loss_fn, epochs, loader, device):
@@ -172,14 +176,14 @@ def train_model2(opt, model, loss_fn, epochs, loader, device):
       yhat = yhat.unsqueeze(0)
     yhat = yhat.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(yhat))
-    plt.savefig(f'models/model2/outputmask{i}.png')
+    plt.savefig(f'modelsTest/model2/outputmask{i}.png')
 
     img = img.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(img))
-    plt.savefig(f'models/model2/outputimg{i}.png')
+    plt.savefig(f'modelsTest/model2/outputimg{i}.png')
 
     #save to out.npy
-    np.save(f'models/model2/out{i}.npy', y_pred.cpu().detach().numpy())
+    #np.save(f'models/model2/out{i}.npy', y_pred.cpu().detach().numpy())
 
 if __name__ == '__main__':
   main()
