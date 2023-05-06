@@ -49,8 +49,8 @@ def main():
     train_model2(torch.optim.Adam(model.parameters(), lr=1e-4), model, torchvision.ops.sigmoid_focal_loss, 150, train_loader, train_device)
 
     #save the model
-    #savepath = 'ModelWeights/UNet1.pt'
-    savepath = 'ModelWeights/UNet2.pt'
+    #savepath = 'ModelWeights/model1/UNetFinal.pt'
+    savepath = 'ModelWeights/model2/UNetFinal.pt'
     torch.save(model.state_dict(), savepath)
 
 def display(imgs, names=['Input', 'True Mask', 'Predicted', 'Scaled Pred']):
