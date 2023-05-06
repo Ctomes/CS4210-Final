@@ -20,7 +20,8 @@ def main():
     train_device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     #train_device = 'cpu'
     print(f'using device: {train_device}')
-    model = UNet((3, 1080, 1920)).to(train_device)
+    #model = UNet((3, 1080, 1920)).to(train_device)
+    model = UNet((3, 144, 48))
 
     #split dataset into training and testing
     #newset = pset('data')
