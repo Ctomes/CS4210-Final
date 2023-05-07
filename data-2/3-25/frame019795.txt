@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 197 0 562 637
+	type: car
+plate: AFB8962
+position_plate: 321 501 123 37
+	char 1: 329 516 17 20
+	char 2: 348 516 15 20
+	char 3: 365 515 15 19
+	char 4: 389 516 11 17
+	char 5: 403 515 11 18
+	char 6: 416 514 12 19
+	char 7: 428 514 13 19

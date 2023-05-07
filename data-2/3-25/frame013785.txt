@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 334 525 282 555
+	type: motorcycle
+plate: AWC6094
+position_plate: 415 942 74 60
+	char 1: 427 958 14 21
+	char 2: 447 957 14 22
+	char 3: 466 958 15 21
+	char 4: 424 979 14 20
+	char 5: 439 978 13 21
+	char 6: 454 979 13 20
+	char 7: 469 979 13 21
+
+position_vehicle: 426 0 381 288
+	type: car
+plate: AYG9378
+position_plate: 516 176 96 34
+	char 1: 524 187 11 17
+	char 2: 535 187 11 17
+	char 3: 547 188 10 16
+	char 4: 563 189 11 16
+	char 5: 575 190 11 16
+	char 6: 586 190 10 17
+	char 7: 597 191 11 17

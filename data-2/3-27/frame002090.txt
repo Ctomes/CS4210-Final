@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 252 229 594 817
+	type: car
+plate: AYO0467
+position_plate: 368 906 153 47
+	char 1: 381 925 14 21
+	char 2: 398 925 14 20
+	char 3: 416 925 15 20
+	char 4: 443 924 15 20
+	char 5: 461 923 14 21
+	char 6: 478 923 16 20
+	char 7: 496 922 14 21

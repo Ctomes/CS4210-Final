@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1088 169 649 679
+	type: car
+plate: ARG4068
+position_plate: 1449 800 125 38
+	char 1: 1461 813 10 19
+	char 2: 1474 813 13 20
+	char 3: 1487 812 13 20
+	char 4: 1509 812 12 19
+	char 5: 1523 812 12 19
+	char 6: 1536 812 13 19
+	char 7: 1550 812 14 19

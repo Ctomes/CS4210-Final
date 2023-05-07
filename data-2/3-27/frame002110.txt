@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 411 0 405 307
+	type: car
+plate: AYO0467
+position_plate: 489 195 103 34
+	char 1: 497 207 10 16
+	char 2: 509 207 11 16
+	char 3: 520 208 11 15
+	char 4: 538 208 12 16
+	char 5: 551 208 9 16
+	char 6: 562 209 11 15
+	char 7: 574 209 9 15

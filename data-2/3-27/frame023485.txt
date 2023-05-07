@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1426 294 266 435
+	type: motorcycle
+plate: ANZ3569
+position_plate: 1565 622 58 51
+	char 1: 1575 634 10 17
+	char 2: 1589 634 11 18
+	char 3: 1604 635 10 17
+	char 4: 1572 651 10 16
+	char 5: 1584 651 9 17
+	char 6: 1594 652 10 16
+	char 7: 1605 653 10 15

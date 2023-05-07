@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 924 0 430 265
+	type: car
+plate: AWE4172
+position_plate: 1128 228 88 29
+	char 1: 1135 236 9 16
+	char 2: 1145 237 11 15
+	char 3: 1156 237 10 15
+	char 4: 1171 237 9 15
+	char 5: 1183 237 5 15
+	char 6: 1192 237 9 16
+	char 7: 1201 237 11 16

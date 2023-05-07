@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1026 0 835 827
+	type: car
+plate: AII4495
+position_plate: 1419 749 121 31
+	char 1: 1426 755 14 21
+	char 2: 1443 755 9 21
+	char 3: 1458 755 8 21
+	char 4: 1475 755 14 22
+	char 5: 1489 756 14 21
+	char 6: 1503 757 16 20
+	char 7: 1518 757 16 21

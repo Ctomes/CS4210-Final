@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1039 75 539 527
+	type: car
+plate: AXO4878
+position_plate: 1314 538 106 33
+	char 1: 1323 546 10 20
+	char 2: 1334 546 12 20
+	char 3: 1346 547 13 19
+	char 4: 1364 547 11 19
+	char 5: 1376 548 12 18
+	char 6: 1389 548 10 18
+	char 7: 1400 548 12 17

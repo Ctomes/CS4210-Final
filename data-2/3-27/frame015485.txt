@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1079 33 596 606
+	type: car
+plate: AWQ9679
+position_plate: 1425 514 104 32
+	char 1: 1428 522 12 20
+	char 2: 1442 523 12 19
+	char 3: 1454 523 14 18
+	char 4: 1473 523 13 18
+	char 5: 1487 523 12 19
+	char 6: 1500 523 13 19
+	char 7: 1512 524 13 18

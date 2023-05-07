@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1056 56 602 597
+	type: car
+plate: FPR2197
+position_plate: 1389 514 112 37
+	char 1: 1397 525 13 22
+	char 2: 1410 525 13 22
+	char 3: 1424 526 13 21
+	char 4: 1443 526 14 20
+	char 5: 1460 527 6 20
+	char 6: 1469 527 13 20
+	char 7: 1483 527 12 20

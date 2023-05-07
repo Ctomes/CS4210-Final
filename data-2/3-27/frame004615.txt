@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 447 0 388 97
+	type: car
+plate: QHH2600
+position_plate: 597 34 80 27
+	char 1: 601 44 10 12
+	char 2: 611 44 10 12
+	char 3: 621 44 10 13
+	char 4: 635 45 11 13
+	char 5: 646 45 10 13
+	char 6: 656 46 9 13
+	char 7: 665 46 10 13
+
+position_vehicle: 1105 18 606 642
+	type: car
+plate: HLI5658
+position_plate: 1451 496 112 39
+	char 1: 1458 508 14 20
+	char 2: 1472 508 12 21
+	char 3: 1489 509 6 19
+	char 4: 1505 509 12 19
+	char 5: 1518 509 12 19
+	char 6: 1531 509 12 19
+	char 7: 1544 509 13 19

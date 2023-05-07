@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 964 0 597 519
+	type: car
+plate: ATI4897
+position_plate: 1263 457 102 23
+	char 1: 1269 458 12 18
+	char 2: 1282 458 11 18
+	char 3: 1296 458 7 18
+	char 4: 1312 458 11 18
+	char 5: 1324 459 12 17
+	char 6: 1336 459 12 18
+	char 7: 1348 459 12 18

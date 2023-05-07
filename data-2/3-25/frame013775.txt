@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 375 0 457 564
+	type: car
+plate: AYG9378
+position_plate: 481 452 114 38
+	char 1: 490 464 12 19
+	char 2: 503 464 13 20
+	char 3: 516 465 14 19
+	char 4: 537 467 12 18
+	char 5: 551 467 12 19
+	char 6: 564 468 13 18
+	char 7: 577 469 14 18

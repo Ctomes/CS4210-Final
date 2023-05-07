@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1274 331 273 461
+	type: motorcycle
+plate: ARR5421
+position_plate: 1410 648 56 39
+	char 1: 1422 658 8 15
+	char 2: 1435 658 9 15
+	char 3: 1448 658 10 14
+	char 4: 1420 671 8 14
+	char 5: 1430 672 8 13
+	char 6: 1439 671 10 14
+	char 7: 1452 671 5 14

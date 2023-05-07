@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 411 334 274 502
+	type: motorcycle
+plate: DNN7888
+position_plate: 501 749 66 54
+	char 1: 512 764 12 18
+	char 2: 529 763 13 20
+	char 3: 547 763 12 20
+	char 4: 509 782 12 19
+	char 5: 522 782 13 18
+	char 6: 536 782 11 19
+	char 7: 549 783 12 18

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 939 35 182 420
+	type: motorcycle
+plate: AVK0286
+position_plate: 1012 331 49 42
+	char 1: 1020 343 9 14
+	char 2: 1034 343 8 14
+	char 3: 1046 343 10 14
+	char 4: 1018 357 9 13
+	char 5: 1028 357 9 14
+	char 6: 1038 358 9 13
+	char 7: 1048 358 8 13

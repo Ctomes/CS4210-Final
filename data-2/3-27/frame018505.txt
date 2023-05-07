@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 368 0 537 447
+	type: car
+plate: ILX9252
+position_plate: 470 273 113 40
+	char 1: 482 283 6 19
+	char 2: 491 285 14 18
+	char 3: 505 285 13 18
+	char 4: 525 286 13 18
+	char 5: 538 286 14 19
+	char 6: 552 287 12 18
+	char 7: 564 288 13 18

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 480 0 212 350
+	type: motorcycle
+plate: DNN7888
+position_plate: 554 265 49 41
+	char 1: 561 275 10 14
+	char 2: 574 274 10 15
+	char 3: 587 273 10 16
+	char 4: 559 288 9 15
+	char 5: 569 289 10 14
+	char 6: 580 289 8 14
+	char 7: 589 289 10 14
+
+position_vehicle: 957 98 570 629
+	type: car
+plate: AWV7409
+position_plate: 1247 678 113 35
+	char 1: 1254 690 13 21
+	char 2: 1268 690 13 20
+	char 3: 1282 690 13 20
+	char 4: 1301 690 14 20
+	char 5: 1314 690 13 20
+	char 6: 1328 690 13 18
+	char 7: 1341 689 13 19

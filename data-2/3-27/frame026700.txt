@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 264 66 468 612
+	type: car
+plate: AXK9582
+position_plate: 435 628 123 34
+	char 1: 442 636 16 24
+	char 2: 457 636 15 24
+	char 3: 472 636 15 23
+	char 4: 494 636 15 23
+	char 5: 509 636 14 23
+	char 6: 523 636 15 22
+	char 7: 538 635 15 24

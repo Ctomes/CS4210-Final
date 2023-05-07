@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1019 0 497 431
+	type: car
+plate: MCC8398
+position_plate: 1269 389 95 27
+	char 1: 1275 397 12 16
+	char 2: 1287 397 11 16
+	char 3: 1298 397 12 16
+	char 4: 1314 397 12 16
+	char 5: 1326 398 11 15
+	char 6: 1337 398 11 15
+	char 7: 1348 398 11 15

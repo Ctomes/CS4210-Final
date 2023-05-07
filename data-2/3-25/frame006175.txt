@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 287 0 723 567
+	type: car
+plate: ANS3488
+position_plate: 410 486 114 40
+	char 1: 416 499 14 19
+	char 2: 430 499 14 19
+	char 3: 444 500 14 19
+	char 4: 463 501 15 20
+	char 5: 478 502 13 19
+	char 6: 492 503 13 19
+	char 7: 506 504 13 18

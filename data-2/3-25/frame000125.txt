@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 452 0 351 158
+	type: car
+plate: AXW9577
+position_plate: 582 29 88 29
+	char 1: 589 38 9 16
+	char 2: 598 38 11 17
+	char 3: 609 39 10 16
+	char 4: 624 40 10 15
+	char 5: 635 40 10 16
+	char 6: 645 40 9 16
+	char 7: 654 40 10 16
+
+position_vehicle: 1061 0 442 258
+	type: car
+plate: AXL8291
+position_plate: 1289 165 86 30
+	char 1: 1294 175 10 15
+	char 2: 1304 174 11 17
+	char 3: 1314 175 11 16
+	char 4: 1329 176 11 15
+	char 5: 1340 176 10 15
+	char 6: 1350 176 10 15
+	char 7: 1362 177 5 14

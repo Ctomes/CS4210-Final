@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 236 185 529 632
+	type: car
+plate: AVL9735
+position_plate: 429 665 136 44
+	char 1: 440 682 13 22
+	char 2: 455 682 14 22
+	char 3: 471 682 15 21
+	char 4: 495 682 15 20
+	char 5: 511 681 14 21
+	char 6: 527 681 15 21
+	char 7: 543 680 15 21
+
+position_vehicle: 1126 92 611 644
+	type: car
+plate: AZD4604
+position_plate: 1478 604 115 33
+	char 1: 1486 612 14 23
+	char 2: 1500 613 15 21
+	char 3: 1514 613 14 21
+	char 4: 1534 612 13 23
+	char 5: 1547 613 15 21
+	char 6: 1561 613 14 21
+	char 7: 1575 612 13 23

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 328 0 381 203
+	type: car
+plate: NQZ9847
+position_plate: 511 58 90 31
+	char 1: 518 70 12 16
+	char 2: 530 71 10 15
+	char 3: 540 70 11 16
+	char 4: 555 70 11 15
+	char 5: 566 70 10 15
+	char 6: 576 68 10 16
+	char 7: 586 68 11 17
+
+position_vehicle: 1029 0 383 174
+	type: car
+plate: ORB3058
+position_plate: 1157 94 79 28
+	char 1: 1162 103 9 15
+	char 2: 1171 103 10 16
+	char 3: 1181 104 10 15
+	char 4: 1194 104 11 15
+	char 5: 1204 104 10 15
+	char 6: 1214 104 10 15
+	char 7: 1224 105 9 15

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 236 266 527 666
+	type: car
+plate: AGY9498
+position_plate: 435 881 136 40
+	char 1: 442 896 17 21
+	char 2: 462 895 16 19
+	char 3: 481 892 16 22
+	char 4: 505 892 14 21
+	char 5: 521 892 15 21
+	char 6: 539 892 12 19
+	char 7: 554 891 14 18
+
+position_vehicle: 1012 154 515 539
+	type: car
+plate: AXV0838
+position_plate: 1285 561 113 33
+	char 1: 1293 574 12 18
+	char 2: 1306 573 15 20
+	char 3: 1322 573 13 19
+	char 4: 1340 574 13 18
+	char 5: 1353 574 13 18
+	char 6: 1366 574 13 17
+	char 7: 1380 573 13 18

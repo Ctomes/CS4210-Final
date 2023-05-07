@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 311 31 468 554
+	type: car
+plate: AKX4420
+position_plate: 505 523 105 36
+	char 1: 512 537 14 18
+	char 2: 526 535 14 19
+	char 3: 540 534 15 20
+	char 4: 561 534 11 18
+	char 5: 573 533 12 19
+	char 6: 585 534 12 17
+	char 7: 597 534 10 16
+
+position_vehicle: 1131 92 529 510
+	type: car
+plate: MEI7438
+position_plate: 1429 460 107 34
+	char 1: 1434 468 13 20
+	char 2: 1448 469 13 19
+	char 3: 1464 469 5 19
+	char 4: 1479 468 13 20
+	char 5: 1492 468 11 20
+	char 6: 1505 470 12 18
+	char 7: 1517 469 13 20

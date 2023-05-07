@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 249 0 415 257
+	type: car
+plate: ANB7273
+position_plate: 454 180 82 27
+	char 1: 458 187 11 16
+	char 2: 469 188 10 14
+	char 3: 479 187 10 15
+	char 4: 492 187 11 15
+	char 5: 503 187 11 15
+	char 6: 514 187 10 15
+	char 7: 524 186 10 15

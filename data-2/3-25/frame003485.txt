@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 970 0 480 209
+	type: car
+plate: ASM5372
+position_plate: 1113 49 83 28
+	char 1: 1117 59 10 15
+	char 2: 1126 59 11 15
+	char 3: 1137 59 11 15
+	char 4: 1151 59 11 15
+	char 5: 1162 60 11 15
+	char 6: 1174 61 9 15
+	char 7: 1182 61 11 15

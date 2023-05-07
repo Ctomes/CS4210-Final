@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 259 0 472 491
+	type: car
+plate: AVM5653
+position_plate: 446 382 109 33
+	char 1: 453 394 13 19
+	char 2: 466 392 12 21
+	char 3: 479 392 13 20
+	char 4: 499 392 12 20
+	char 5: 512 392 13 19
+	char 6: 525 392 12 19
+	char 7: 538 391 12 20
+
+position_vehicle: 1051 242 607 699
+	type: car
+plate: ATE0247
+position_plate: 1372 890 125 36
+	char 1: 1379 902 14 21
+	char 2: 1395 901 15 22
+	char 3: 1408 901 17 21
+	char 4: 1431 902 16 20
+	char 5: 1445 902 16 20
+	char 6: 1460 901 15 21
+	char 7: 1476 901 15 20

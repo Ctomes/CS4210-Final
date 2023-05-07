@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 957 0 405 267
+	type: car
+plate: AXQ9916
+position_plate: 1158 195 88 28
+	char 1: 1165 204 9 15
+	char 2: 1175 204 10 15
+	char 3: 1185 204 11 15
+	char 4: 1201 204 10 16
+	char 5: 1211 204 10 16
+	char 6: 1224 204 5 17
+	char 7: 1232 204 10 16

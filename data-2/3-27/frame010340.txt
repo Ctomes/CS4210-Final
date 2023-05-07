@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 465 93 192 435
+	type: motorcycle
+plate: AXA7868
+position_plate: 525 407 56 44
+	char 1: 535 418 10 16
+	char 2: 548 418 12 17
+	char 3: 564 419 10 16
+	char 4: 533 434 9 16
+	char 5: 544 435 9 14
+	char 6: 555 435 10 14
+	char 7: 566 435 9 14

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 247 207 644 850
+	type: car
+plate: ABX4044
+position_plate: 496 867 156 50
+	char 1: 511 888 14 22
+	char 2: 527 887 16 22
+	char 3: 545 886 15 22
+	char 4: 572 886 13 20
+	char 5: 589 885 15 21
+	char 6: 607 884 13 21
+	char 7: 624 884 13 20

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 415 222 519 621
+	type: car
+plate: AQJ3449
+position_plate: 610 786 129 34
+	char 1: 618 797 14 19
+	char 2: 634 796 14 20
+	char 3: 650 795 14 21
+	char 4: 672 796 15 21
+	char 5: 688 795 13 22
+	char 6: 703 796 14 21
+	char 7: 718 797 14 19

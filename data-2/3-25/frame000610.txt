@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 427 0 399 128
+	type: car
+plate: AWG9433
+position_plate: 584 67 84 26
+	char 1: 590 74 9 15
+	char 2: 599 75 10 14
+	char 3: 609 75 10 14
+	char 4: 624 76 10 13
+	char 5: 634 76 10 14
+	char 6: 644 76 10 14
+	char 7: 654 76 10 15

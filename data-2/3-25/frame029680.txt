@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 313 11 205 410
+	type: motorcycle
+plate: APZ4376
+position_plate: 394 292 53 41
+	char 1: 405 306 8 14
+	char 2: 415 304 10 14
+	char 3: 428 302 10 14
+	char 4: 405 318 8 13
+	char 5: 413 317 10 12
+	char 6: 423 315 7 13
+	char 7: 432 314 9 12

@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 281 160 545 719
+	type: car
+plate: IPS5530
+position_plate: 476 726 135 39
+	char 1: 490 741 6 19
+	char 2: 501 741 15 20
+	char 3: 518 741 14 20
+	char 4: 541 741 14 21
+	char 5: 557 742 14 20
+	char 6: 573 742 14 20
+	char 7: 589 742 14 20
+
+position_vehicle: 1007 0 477 206
+	type: car
+plate: AII4495
+position_plate: 1220 144 83 30
+	char 1: 1223 152 11 17
+	char 2: 1236 152 7 17
+	char 3: 1245 153 7 16
+	char 4: 1258 154 10 16
+	char 5: 1268 155 10 16
+	char 6: 1278 155 10 16
+	char 7: 1288 156 11 15

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1011 102 567 569
+	type: car
+plate: HSX3952
+position_plate: 1180 535 115 39
+	char 1: 1188 549 13 19
+	char 2: 1202 549 13 19
+	char 3: 1216 549 13 19
+	char 4: 1234 548 14 21
+	char 5: 1248 550 14 20
+	char 6: 1262 550 13 20
+	char 7: 1275 551 14 19

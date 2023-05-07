@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 966 0 415 154
+	type: car
+plate: APP0615
+position_plate: 1122 125 78 24
+	char 1: 1126 129 10 15
+	char 2: 1136 129 10 15
+	char 3: 1145 129 11 16
+	char 4: 1160 131 9 15
+	char 5: 1169 132 11 14
+	char 6: 1181 132 5 14
+	char 7: 1187 132 12 15

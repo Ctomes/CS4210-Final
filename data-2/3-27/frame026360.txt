@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 286 0 405 315
+	type: car
+plate: KVI6322
+position_plate: 435 238 99 31
+	char 1: 440 246 12 17
+	char 2: 453 246 10 17
+	char 3: 468 247 5 16
+	char 4: 482 246 12 18
+	char 5: 495 247 11 17
+	char 6: 507 247 12 17
+	char 7: 519 247 12 17
+
+position_vehicle: 1041 217 599 639
+	type: car
+plate: AXQ9916
+position_plate: 1353 796 121 34
+	char 1: 1361 804 13 23
+	char 2: 1375 803 14 24
+	char 3: 1390 804 13 22
+	char 4: 1412 804 13 22
+	char 5: 1426 804 13 21
+	char 6: 1444 803 6 22
+	char 7: 1454 803 14 22

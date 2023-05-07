@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 287 0 631 303
+	type: car
+plate: ANS3488
+position_plate: 422 232 98 33
+	char 1: 427 242 11 17
+	char 2: 439 243 12 17
+	char 3: 451 243 12 17
+	char 4: 468 244 12 16
+	char 5: 481 244 11 17
+	char 6: 492 245 11 17
+	char 7: 504 245 11 17
+
+position_vehicle: 1108 61 524 522
+	type: car
+plate: HKJ9785
+position_plate: 1392 436 105 36
+	char 1: 1400 448 12 20
+	char 2: 1413 448 12 21
+	char 3: 1425 448 12 19
+	char 4: 1441 449 12 19
+	char 5: 1454 449 11 19
+	char 6: 1466 450 11 18
+	char 7: 1478 451 13 17

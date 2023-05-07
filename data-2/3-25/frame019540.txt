@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1143 282 681 718
+	type: car
+plate: AUY5048
+position_plate: 1509 950 128 36
+	char 1: 1518 960 13 21
+	char 2: 1533 959 15 21
+	char 3: 1549 959 14 21
+	char 4: 1570 958 15 21
+	char 5: 1585 959 15 20
+	char 6: 1601 958 12 21
+	char 7: 1614 958 15 20

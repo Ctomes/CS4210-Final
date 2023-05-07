@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1086 269 709 800
+	type: car
+plate: AXP2281
+position_plate: 1497 920 131 38
+	char 1: 1504 933 15 24
+	char 2: 1520 931 16 25
+	char 3: 1536 932 16 23
+	char 4: 1558 931 17 23
+	char 5: 1574 930 16 24
+	char 6: 1590 929 16 24
+	char 7: 1609 929 8 24

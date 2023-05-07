@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 757 7 170 401
+	type: motorcycle
+plate: DOH9188
+position_plate: 816 282 50 42
+	char 1: 825 293 10 14
+	char 2: 838 293 9 15
+	char 3: 851 293 9 15
+	char 4: 822 307 10 14
+	char 5: 834 308 5 14
+	char 6: 842 308 9 14
+	char 7: 852 308 9 14

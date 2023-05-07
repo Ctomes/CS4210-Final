@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 231 0 174 284
+	type: motorcycle
+plate: EXC2894
+position_plate: 287 155 46 32
+	char 1: 296 165 8 10
+	char 2: 307 164 8 12
+	char 3: 318 165 8 11
+	char 4: 295 176 8 11
+	char 5: 304 176 7 11
+	char 6: 312 176 8 11
+	char 7: 320 176 8 10

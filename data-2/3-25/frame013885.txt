@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1108 371 609 709
+	type: car
+plate: ADR1906
+position_plate: 1437 947 130 40
+	char 1: 1444 961 13 21
+	char 2: 1460 962 15 21
+	char 3: 1476 962 16 21
+	char 4: 1503 962 8 21
+	char 5: 1514 962 15 20
+	char 6: 1530 960 15 22
+	char 7: 1545 959 15 22

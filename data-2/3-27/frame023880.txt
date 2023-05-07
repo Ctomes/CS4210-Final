@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 229 77 487 554
+	type: car
+plate: ANV2371
+position_plate: 404 471 110 37
+	char 1: 412 485 13 17
+	char 2: 427 485 14 17
+	char 3: 442 485 13 17
+	char 4: 462 485 11 17
+	char 5: 475 486 10 16
+	char 6: 486 485 11 18
+	char 7: 500 485 7 18

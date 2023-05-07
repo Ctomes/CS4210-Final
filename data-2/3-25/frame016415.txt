@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 346 0 366 141
+	type: car
+plate: AVC7652
+position_plate: 484 88 87 29
+	char 1: 492 99 11 15
+	char 2: 502 98 10 16
+	char 3: 512 99 11 15
+	char 4: 527 100 10 15
+	char 5: 537 100 10 15
+	char 6: 547 100 10 15
+	char 7: 557 100 11 16
+
+position_vehicle: 1141 274 592 580
+	type: car
+plate: AJR8238
+position_plate: 1453 791 120 33
+	char 1: 1462 801 13 20
+	char 2: 1476 800 13 20
+	char 3: 1490 800 13 20
+	char 4: 1511 800 13 19
+	char 5: 1525 800 13 19
+	char 6: 1538 799 14 19
+	char 7: 1552 798 14 19

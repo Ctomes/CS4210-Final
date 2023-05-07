@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 204 138 515 627
+	type: car
+plate: AWS5963
+position_plate: 395 613 128 38
+	char 1: 405 624 14 23
+	char 2: 419 624 15 23
+	char 3: 434 624 15 22
+	char 4: 456 624 15 22
+	char 5: 471 624 14 21
+	char 6: 486 624 14 21
+	char 7: 500 624 14 21
+
+position_vehicle: 1100 226 575 582
+	type: car
+plate: ACI1221
+position_plate: 1411 679 119 36
+	char 1: 1419 692 17 20
+	char 2: 1437 692 17 20
+	char 3: 1455 693 9 20
+	char 4: 1476 692 9 20
+	char 5: 1486 692 14 20
+	char 6: 1499 692 14 19
+	char 7: 1515 692 10 19

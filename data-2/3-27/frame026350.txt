@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 231 15 467 542
+	type: car
+plate: KVI6322
+position_plate: 405 480 113 33
+	char 1: 410 490 12 18
+	char 2: 424 489 13 20
+	char 3: 442 490 6 19
+	char 4: 459 489 12 19
+	char 5: 474 489 12 18
+	char 6: 488 489 12 19
+	char 7: 502 488 13 19

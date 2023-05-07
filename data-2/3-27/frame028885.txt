@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 381 0 368 276
+	type: car
+plate: AJP7618
+position_plate: 516 200 95 27
+	char 1: 524 207 14 18
+	char 2: 538 208 10 17
+	char 3: 549 208 12 16
+	char 4: 564 208 11 16
+	char 5: 576 208 9 16
+	char 6: 587 208 7 17
+	char 7: 595 208 11 16
+
+position_vehicle: 564 537 246 543
+	type: motorcycle
+plate: AUI7341
+position_plate: 680 949 70 55
+	char 1: 695 966 9 19
+	char 2: 710 964 12 19
+	char 3: 731 963 5 18
+	char 4: 692 984 10 19
+	char 5: 705 983 11 17
+	char 6: 719 982 10 17
+	char 7: 734 981 5 17

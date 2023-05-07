@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 217 204 508 636
+	type: car
+plate: JEU8897
+position_plate: 409 762 132 41
+	char 1: 418 777 15 20
+	char 2: 434 776 15 20
+	char 3: 450 774 14 22
+	char 4: 473 773 15 20
+	char 5: 489 772 14 20
+	char 6: 505 771 13 20
+	char 7: 519 770 14 20

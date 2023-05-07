@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 262 100 510 637
+	type: car
+plate: AYI4280
+position_plate: 449 675 129 45
+	char 1: 460 695 13 20
+	char 2: 474 695 14 19
+	char 3: 494 695 5 18
+	char 4: 513 694 11 19
+	char 5: 527 693 15 21
+	char 6: 542 693 14 20
+	char 7: 557 693 15 20
+
+position_vehicle: 999 0 447 402
+	type: car
+plate: MJK6609
+position_plate: 1222 333 95 29
+	char 1: 1227 340 12 17
+	char 2: 1239 339 10 17
+	char 3: 1249 340 12 17
+	char 4: 1267 340 11 17
+	char 5: 1278 339 11 18
+	char 6: 1289 339 11 18
+	char 7: 1300 339 11 18

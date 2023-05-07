@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1034 408 271 503
+	type: motorcycle
+plate: ALO7054
+position_plate: 1150 779 58 43
+	char 1: 1159 791 11 15
+	char 2: 1173 791 12 16
+	char 3: 1189 792 11 15
+	char 4: 1156 806 12 15
+	char 5: 1168 806 11 15
+	char 6: 1180 806 11 15
+	char 7: 1191 806 11 15

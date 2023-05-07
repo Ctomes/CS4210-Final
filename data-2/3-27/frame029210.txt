@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1110 252 609 647
+	type: car
+plate: AMZ5968
+position_plate: 1431 831 125 34
+	char 1: 1440 840 12 21
+	char 2: 1454 840 15 21
+	char 3: 1468 840 16 19
+	char 4: 1490 840 15 20
+	char 5: 1504 840 15 20
+	char 6: 1519 839 14 20
+	char 7: 1534 839 14 20

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 199 319 271 585
+	type: motorcycle
+plate: ANN1357
+position_plate: 293 768 65 48
+	char 1: 305 780 11 19
+	char 2: 320 779 12 18
+	char 3: 336 779 12 16
+	char 4: 305 797 5 16
+	char 5: 315 796 10 16
+	char 6: 327 796 10 15
+	char 7: 338 795 12 16

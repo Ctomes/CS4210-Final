@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 989 95 530 547
+	type: car
+plate: OQT3868
+position_plate: 1263 581 109 36
+	char 1: 1271 594 12 18
+	char 2: 1284 593 12 20
+	char 3: 1297 592 11 20
+	char 4: 1315 592 13 19
+	char 5: 1329 592 12 19
+	char 6: 1342 592 11 19
+	char 7: 1355 592 12 18

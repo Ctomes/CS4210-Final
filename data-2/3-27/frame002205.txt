@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1252 242 668 646
+	type: car
+plate: BDI0509
+position_plate: 1643 840 122 36
+	char 1: 1653 848 12 21
+	char 2: 1667 848 13 21
+	char 3: 1684 847 6 21
+	char 4: 1702 848 13 20
+	char 5: 1716 847 13 21
+	char 6: 1730 848 13 20
+	char 7: 1743 847 14 21

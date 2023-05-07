@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 316 71 442 498
+	type: car
+plate: CGH2213
+position_plate: 490 441 115 30
+	char 1: 498 454 14 14
+	char 2: 513 454 14 14
+	char 3: 528 453 15 15
+	char 4: 548 453 12 15
+	char 5: 561 452 13 16
+	char 6: 577 453 6 14
+	char 7: 588 452 12 15
+
+position_vehicle: 1024 0 383 190
+	type: car
+plate: AYF3591
+position_plate: 1207 113 79 26
+	char 1: 1213 121 9 16
+	char 2: 1222 121 9 16
+	char 3: 1231 121 10 15
+	char 4: 1244 122 10 15
+	char 5: 1254 123 10 14
+	char 6: 1264 123 9 14
+	char 7: 1275 123 5 14

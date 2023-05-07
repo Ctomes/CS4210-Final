@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 73 331 587 749
+	type: car
+plate: AWE7133
+position_plate: 290 1016 150 42
+	char 1: 302 1028 15 24
+	char 2: 318 1028 17 23
+	char 3: 336 1028 16 23
+	char 4: 363 1027 15 22
+	char 5: 385 1026 7 22
+	char 6: 399 1025 15 22
+	char 7: 417 1024 15 22

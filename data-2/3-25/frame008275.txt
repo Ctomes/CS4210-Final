@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 381 0 380 255
+	type: car
+plate: AXG4249
+position_plate: 525 172 90 31
+	char 1: 532 182 10 17
+	char 2: 542 181 11 19
+	char 3: 553 182 11 17
+	char 4: 569 182 10 17
+	char 5: 579 183 12 16
+	char 6: 591 182 10 17
+	char 7: 601 183 11 16
+
+position_vehicle: 967 0 343 109
+	type: car
+plate: AXP2281
+position_plate: 1130 2 74 26
+	char 1: 1133 11 9 14
+	char 2: 1142 10 10 15
+	char 3: 1151 11 10 15
+	char 4: 1165 11 10 15
+	char 5: 1174 12 10 14
+	char 6: 1184 12 9 14
+	char 7: 1194 11 6 16

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1081 0 353 136
+	type: car
+plate: AXL8291
+position_plate: 1238 47 79 28
+	char 1: 1243 56 9 14
+	char 2: 1253 56 9 14
+	char 3: 1262 56 10 15
+	char 4: 1276 57 9 14
+	char 5: 1285 57 9 15
+	char 6: 1294 57 10 15
+	char 7: 1305 58 6 15

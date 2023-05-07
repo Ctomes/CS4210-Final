@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 237 0 592 629
+	type: car
+plate: AWA3486
+position_plate: 359 457 122 38
+	char 1: 368 469 14 20
+	char 2: 382 469 14 22
+	char 3: 397 469 13 21
+	char 4: 416 471 15 19
+	char 5: 431 469 13 21
+	char 6: 445 471 14 20
+	char 7: 459 471 14 20

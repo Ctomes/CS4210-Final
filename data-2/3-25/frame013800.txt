@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 430 80 210 445
+	type: motorcycle
+plate: AWC6094
+position_plate: 505 395 55 45
+	char 1: 514 407 10 16
+	char 2: 529 407 10 16
+	char 3: 543 408 11 15
+	char 4: 512 423 11 16
+	char 5: 523 423 11 15
+	char 6: 534 423 11 16
+	char 7: 545 422 10 16
+
+position_vehicle: 1078 43 555 542
+	type: car
+plate: AXG5707
+position_plate: 1389 444 106 34
+	char 1: 1397 455 11 19
+	char 2: 1408 454 13 21
+	char 3: 1421 455 12 19
+	char 4: 1440 455 12 19
+	char 5: 1453 455 11 19
+	char 6: 1464 456 13 18
+	char 7: 1477 455 12 20

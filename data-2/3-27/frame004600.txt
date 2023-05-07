@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 324 0 552 640
+	type: car
+plate: QHH2600
+position_plate: 538 586 119 32
+	char 1: 546 597 13 17
+	char 2: 560 597 13 18
+	char 3: 574 597 14 18
+	char 4: 595 597 14 18
+	char 5: 610 596 13 19
+	char 6: 624 597 13 18
+	char 7: 638 598 14 17

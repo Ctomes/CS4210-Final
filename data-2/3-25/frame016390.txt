@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 93 142 627 899
+	type: car
+plate: AVC7652
+position_plate: 328 961 148 42
+	char 1: 342 979 16 21
+	char 2: 358 978 16 21
+	char 3: 375 978 18 21
+	char 4: 400 978 16 20
+	char 5: 418 977 16 21
+	char 6: 435 977 16 21
+	char 7: 451 976 17 21

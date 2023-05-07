@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 212 0 783 611
+	type: car
+plate: MER0441
+position_plate: 353 520 117 34
+	char 1: 357 531 15 20
+	char 2: 372 531 15 19
+	char 3: 386 531 15 19
+	char 4: 407 530 15 19
+	char 5: 422 530 14 19
+	char 6: 436 530 15 19
+	char 7: 454 530 8 19

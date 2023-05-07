@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 352 0 435 394
+	type: car
+plate: HUY6612
+position_plate: 523 193 103 33
+	char 1: 529 205 13 18
+	char 2: 542 205 12 18
+	char 3: 554 205 12 18
+	char 4: 572 205 13 18
+	char 5: 585 206 12 17
+	char 6: 600 205 6 18
+	char 7: 609 205 12 18

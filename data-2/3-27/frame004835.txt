@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1016 0 453 345
+	type: car
+plate: AYV5455
+position_plate: 1248 287 91 29
+	char 1: 1254 295 11 18
+	char 2: 1265 295 11 18
+	char 3: 1276 296 11 17
+	char 4: 1292 296 11 17
+	char 5: 1303 296 9 17
+	char 6: 1312 296 12 17
+	char 7: 1324 296 11 17

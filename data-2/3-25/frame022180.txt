@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 480 1 425 507
+	type: car
+plate: JPB1873
+position_plate: 644 458 107 30
+	char 1: 650 466 13 20
+	char 2: 663 466 12 20
+	char 3: 676 466 12 19
+	char 4: 698 466 6 20
+	char 5: 708 465 13 20
+	char 6: 721 465 12 20
+	char 7: 734 466 12 19

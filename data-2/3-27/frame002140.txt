@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 266 257 580 745
+	type: car
+plate: AKX4420
+position_plate: 497 942 130 40
+	char 1: 504 957 18 20
+	char 2: 522 954 17 22
+	char 3: 540 953 18 21
+	char 4: 566 952 13 20
+	char 5: 581 951 13 22
+	char 6: 594 951 15 20
+	char 7: 610 951 13 19

@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 304 0 418 427
+	type: car
+plate: CGH2213
+position_plate: 482 296 104 28
+	char 1: 489 307 13 14
+	char 2: 503 307 12 14
+	char 3: 516 306 13 15
+	char 4: 534 306 12 15
+	char 5: 546 306 12 15
+	char 6: 561 307 5 14
+	char 7: 571 306 11 14

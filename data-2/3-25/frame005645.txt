@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 204 0 379 125
+	type: car
+plate: AQG8088
+position_plate: 364 12 87 36
+	char 1: 372 27 10 16
+	char 2: 381 27 11 15
+	char 3: 392 26 10 15
+	char 4: 407 25 10 15
+	char 5: 417 25 10 14
+	char 6: 427 24 10 15
+	char 7: 437 23 10 15
+
+position_vehicle: 1073 159 621 637
+	type: car
+plate: MCC8398
+position_plate: 1388 744 116 28
+	char 1: 1396 751 14 18
+	char 2: 1410 751 13 17
+	char 3: 1424 751 13 17
+	char 4: 1444 751 13 17
+	char 5: 1457 751 13 17
+	char 6: 1471 751 13 16
+	char 7: 1484 751 14 16

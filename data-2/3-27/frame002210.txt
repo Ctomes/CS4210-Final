@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 276 130 664 950
+	type: car
+plate: AKK0093
+position_plate: 543 1007 148 45
+	char 1: 553 1027 16 22
+	char 2: 570 1027 17 20
+	char 3: 588 1026 16 20
+	char 4: 615 1025 15 19
+	char 5: 632 1024 16 19
+	char 6: 649 1023 17 19
+	char 7: 667 1022 16 19
+
+position_vehicle: 1182 58 569 512
+	type: car
+plate: BDI0509
+position_plate: 1495 516 104 33
+	char 1: 1502 526 11 17
+	char 2: 1514 526 12 18
+	char 3: 1529 524 5 19
+	char 4: 1544 525 12 18
+	char 5: 1557 525 10 19
+	char 6: 1568 526 12 18
+	char 7: 1580 526 12 18

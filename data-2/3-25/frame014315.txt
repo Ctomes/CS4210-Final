@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1038 0 468 405
+	type: car
+plate: AXU0356
+position_plate: 1289 361 93 29
+	char 1: 1294 367 11 19
+	char 2: 1305 367 12 19
+	char 3: 1316 367 13 19
+	char 4: 1333 368 12 18
+	char 5: 1345 367 11 19
+	char 6: 1356 368 11 18
+	char 7: 1367 368 11 19

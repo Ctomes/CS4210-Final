@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 1441 582 339 498
+	type: motorcycle
+plate: MKC1098
+position_plate: 1631 985 67 59
+	char 1: 1642 1000 12 20
+	char 2: 1660 999 12 22
+	char 3: 1676 998 14 23
+	char 4: 1643 1019 6 21
+	char 5: 1652 1020 13 20
+	char 6: 1666 1020 12 19
+	char 7: 1680 1019 12 20

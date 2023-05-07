@@ -1,0 +1,24 @@
+vehicles: 2
+position_vehicle: 919 0 118 174
+	type: motorcycle
+plate: AVK0286
+position_plate: 969 66 41 33
+	char 1: 976 74 7 12
+	char 2: 986 74 8 12
+	char 3: 997 74 8 12
+	char 4: 974 86 8 11
+	char 5: 983 86 7 11
+	char 6: 991 86 7 11
+	char 7: 999 86 8 12
+
+position_vehicle: 1242 304 678 676
+	type: car
+plate: AXR3967
+position_plate: 1621 922 123 33
+	char 1: 1630 926 13 24
+	char 2: 1644 926 15 26
+	char 3: 1659 926 15 25
+	char 4: 1681 927 14 23
+	char 5: 1696 927 14 22
+	char 6: 1710 927 14 23
+	char 7: 1726 926 13 23

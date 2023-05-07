@@ -1,0 +1,12 @@
+vehicles: 1
+position_vehicle: 149 0 827 648
+	type: car
+plate: AOA9729
+position_plate: 523 586 125 34
+	char 1: 531 600 13 19
+	char 2: 546 599 14 18
+	char 3: 561 599 13 18
+	char 4: 583 598 15 18
+	char 5: 598 598 14 18
+	char 6: 612 597 15 18
+	char 7: 627 597 15 18
