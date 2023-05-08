@@ -147,7 +147,7 @@ class LetterSegDataset():
                     x2 = x + item[key]['width']
                     y2 = y + item[key]['height']
 
-                    gt[y:y2, x:x2] = 1
+                    gt[y:y2, x:x2] = 1 - gt[y:y2, x:x2]
 
         crops = []
         masks = []
