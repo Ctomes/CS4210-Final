@@ -25,7 +25,7 @@ def main():
   print(device)
   #Part 1: Image crop to License plate
   #model instantiation
-  loadpath = 'ModelWeights/UNet40.pt'
+  loadpath = 'ModelWeights/UNet173.pt'
   params = (3, 1920, 1080) #expected image size
   plateModel = UNet(params).to(device).eval()
   plateModel.load_state_dict(torch.load(loadpath, map_location=torch.device(device)))
