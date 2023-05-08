@@ -22,6 +22,7 @@ def main():
     print(f'using device: {train_device}')
     #model = UNet((3, 1080, 1920)).to(train_device)
     model = UNet((3, 144, 48))
+    model.to(train_device)
 
     #split dataset into training and testing
     #newset = pset('data')
@@ -50,7 +51,7 @@ def main():
 
     #save the model
     #savepath = 'ModelWeights/model1/UNetFinal.pt'
-    savepath = 'ModelWeights/model2/UNetFinal.pt'
+    savepath = 'ModelWeights/model2/UNetFinalExtraOffset.pt'
     torch.save(model.state_dict(), savepath)
 
 def display(imgs, names=['Input', 'True Mask', 'Predicted', 'Scaled Pred']):
@@ -177,14 +178,18 @@ def train_model2(opt, model, loss_fn, epochs, loader, device):
       yhat = yhat.unsqueeze(0)
     yhat = yhat.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(yhat))
-    plt.savefig(f'modelsTest/model2/outputmask{i}.png')
+    plt.savefig(f'model2ims/outputmask{i}.png')
 
     img = img.permute(1,2,0).detach().cpu()
     plt.imshow(np.asarray(img))
-    plt.savefig(f'modelsTest/model2/outputimg{i}.png')
+    plt.savefig(f'model2ims/outputimg{i}.png')
 
     #save to out.npy
     #np.save(f'models/model2/out{i}.npy', y_pred.cpu().detach().numpy())
+
+    #save code
+    savepath = f'ModelWeights/model2checkpoints/statesave{i}.pt'
+    torch.save(model.state_dict(), savepath)
 
 if __name__ == '__main__':
   main()
