@@ -97,11 +97,14 @@ class convNet(nn.Module):
 
     self.conv1 = nn.Conv2d(insize[0], 8, 3, padding = 'same')
     self.conv2 = nn.Conv2d(8, 16, 2, padding = 'same') #channels = 16, but with 2 pooling layers, so div by 16
+    self.conv3 = nn.Conv2d(16, 64, 2, padding='same')
 
     self.flat = nn.Flatten()
-
-    self.lin1 = nn.Linear(insize[1]*insize[2], insize[1]*insize[2]/2)
-    self.lin2 = nn.Linear(insize[1]*insize[2]/2, 36) #out to alphanumeric
+    print(type(insize[1]))
+    print(type(int(insize[1]*insize[2])))
+    print(int(insize[1]*insize[2])/2)
+    self.lin1 = nn.Linear(in_features=int(insize[1]*insize[2]), out_features=int(insize[1]*insize[2]/2))
+    self.lin2 = nn.Linear(int(insize[1]*insize[2]/2), 36) #out to alphanumeric
 
     self.pool = nn.MaxPool2d(2)
     self.act = nn.ReLU()
@@ -116,6 +119,10 @@ class convNet(nn.Module):
     conv2 = self.act(conv2)
     conv2 = self.pool(conv2)
 
+    conv3 = self.conv3(conv2)
+    conv3 = self.act(conv3)
+    conv3 = self.pool(conv3)
+
     midpt = self.flat(conv2)
 
     lin1 = self.lin1(midpt)
@@ -124,7 +131,7 @@ class convNet(nn.Module):
     lin2 = self.lin2(lin1)
     lin2 = self.out(lin2)
 
-    return torch.argmax(lin2)
+    return lin2
   
 ### TESTING MODELS ###
 class testNet2(nn.Module):

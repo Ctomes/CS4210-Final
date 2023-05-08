@@ -11,6 +11,15 @@ class charDataset:
 
         #for now image extension is just jpg, hard coded, could be updated for generalizability
         self.ext = '.jpg'
+        self.bank = dict()
+        for i in range(65, 91):  # ASCII codes for uppercase A to Z
+            self.bank[chr(i)] = i - 65
+            #print(chr(i), ':', i - 65)
+        
+        for i in range(0, 10):
+            self.bank[f'{i}'] = i + 26
+
+        self.blank = np.zeros((36))
 
         
         #takes in dataset folder
@@ -41,5 +50,23 @@ class charDataset:
         #resize for uniform data shape 
         #NOTE: it might be a good idea to change the original characters os that their shape is square before resizing, but depends on how model 2 dataset works
         img = cv2.resize(img, (28, 28))
-        return img, self.data[idx][2]
+        img = self.sharpen_image(img)
+        img = np.transpose(img, (2, 0, 1))
 
+        #result = self.blank.copy()
+
+        char = self.data[idx][2]
+        result = self.bank[char]
+        
+        return img, char
+
+    def sharpen_image(self, image):
+        # Create the sharpening kernel
+        outside = 0.4
+        inside = 5
+        kernel = np.array([[-1,-1,-1], [-1,9.5,-1], [-1,-1,-1]])
+
+        # Apply the kernel to the image using filter2D
+        sharpened = cv2.filter2D(image, -1, kernel)
+
+        return sharpened
