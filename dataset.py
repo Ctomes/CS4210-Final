@@ -139,13 +139,14 @@ class LetterSegDataset():
         
         #generate mask
         gt = np.zeros(self.inshape)
+        offset = 3
         for item in gtInfo:
             for key in item:
                 if 'char' in key:
-                    x = item[key]['x']
-                    y = item[key]['y']
-                    x2 = x + item[key]['width']
-                    y2 = y + item[key]['height']
+                    x = item[key]['x'] + offset
+                    y = item[key]['y'] + offset
+                    x2 = x + item[key]['width'] - offset
+                    y2 = y + item[key]['height'] - offset
 
                     gt[y:y2, x:x2] = 1 - gt[y:y2, x:x2]
 
