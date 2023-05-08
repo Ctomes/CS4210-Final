@@ -45,7 +45,7 @@ def main():
 
   #Part 2: License plate crop to letters
   #specify the model to use
-  loadpath = 'ModelWeights/UNet2.pt'
+  loadpath = 'ModelWeights/model2/UNetFinal.pt'
   params = (3, 144, 48) #this IS a hyperparameter kinda, whatever we decide is the standard
   letterModel = UNet(params).to(device).eval()
   letterModel.load_state_dict(torch.load(loadpath, map_location=torch.device(device)))
@@ -54,7 +54,7 @@ def main():
   resizedPlates = [cv2.resize(plate, params[1:]) for plate in plateimgs]
 
   # transform those plate images into sets of letter images
-  letterSets = [imgcrops(letterModel, plate) for plate in resizedPlates]
+  letterSets = [imgcrops(letterModel, plate, erode = True, exp = 3) for plate in resizedPlates]
 
 
 
