@@ -131,6 +131,7 @@ class LetterSegDataset():
 
         #get data
         im = cv2.imread(imPath)
+
         #im = Image.open(imPath)
         #im = np.asarray(im)
         #print("thing1", np.shape(im))
@@ -160,6 +161,9 @@ class LetterSegDataset():
 
             crops.append(cv2.resize(crop_img(imPath, x, y, w, h), self.outshape))
             masks.append(cv2.resize(gt[y:y+h, x:x+w], self.outshape))
+        
+        for n, crop in enumerate(crops):
+            crops[n] = cv2.erode(crop, None, iterations = 1)
             
 
         #TODO: add random augmentation to input image
