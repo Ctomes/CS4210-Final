@@ -95,9 +95,9 @@ class convNet(nn.Module):
 
     self.insize = insize
 
-    self.conv1 = nn.Conv2d(insize[0], 8, 3, padding = 'same')
-    self.conv2 = nn.Conv2d(8, 16, 2, padding = 'same') #channels = 16, but with 2 pooling layers, so div by 16
-    self.conv3 = nn.Conv2d(16, 64, 2, padding='same')
+    self.conv1 = nn.Conv2d(insize[0], 16, 3, padding = 'same')
+    self.conv2 = nn.Conv2d(16, 32, 2, padding = 'same') #channels = 16, but with 2 pooling layers, so div by 16
+    self.conv3 = nn.Conv2d(32, 64, 2, padding='same')
 
     self.flat = nn.Flatten()
     print(type(insize[1]))
@@ -123,7 +123,7 @@ class convNet(nn.Module):
     conv3 = self.act(conv3)
     conv3 = self.pool(conv3)
 
-    midpt = self.flat(conv2)
+    midpt = self.flat(conv3)
 
     lin1 = self.lin1(midpt)
     lin1 = self.act(lin1)

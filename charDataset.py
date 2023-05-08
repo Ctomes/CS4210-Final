@@ -58,7 +58,7 @@ class charDataset:
         char = self.data[idx][2]
         result = self.bank[char]
         
-        return img, char
+        return img, int(result)
 
     def sharpen_image(self, image):
         # Create the sharpening kernel
