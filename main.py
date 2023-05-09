@@ -16,7 +16,7 @@ import cv2
 import pandas as pd
 
 from Model import UNet, convNet
-from BoxStuff import imgcrops
+from BoxStuff import imgcrops, sharpen_image
 from read_class import readClass as read
 
 
@@ -65,10 +65,11 @@ def main():
 
   #Part 3: Individual letters from previous models to overall string prediction
   #may want to test with grayscaling the image first
-  loadpath = 'ModelWeights/ConvNet3.pt'
+  loadpath = 'Model3/UNet72.pt'
   params = (3, 28, 28) #this IS a hyperparameter
+  letterSize = (28, 28)
   letterGuesser = convNet(params)
-  letterGuesser.load_state_dict(torch.load(loadpath)) 
+  letterGuesser.load_state_dict(torch.load(loadpath, map_location=torch.device(device))) 
 
   #translations for the model
   bank = []
@@ -80,12 +81,21 @@ def main():
   #predict all the plates
   plates = []
   for letterSet in letterSets:
-    #normalize the size of the letters
-    resizedLetters = [cv2.resize(letter, params) for letter in letterSet]
+    #normalize the size of the letters, then convert them to torch tensors for prediction
+    resizedLetters = [cv2.resize(letter, letterSize) for letter in letterSet]
+    resizedLetters = [sharpen_image(letter) for letter in resizedLetters] #sharpen the image
+    
+    #show the effect of sharpening
+    for letter in resizedLetters:
+      plt.imshow(letter)
+      plt.show()
+    
+    resizedLetters = [torch.from_numpy(letter).float().permute(2, 0, 1).unsqueeze(0) for letter in resizedLetters]
 
     #get a letter prediction for each letter
-    letters = [torch.argmax(letterGuesser(letter)) for letter in resizedLetters]
+    letters = [torch.argmax(letterGuesser(letter).cpu()) for letter in resizedLetters]
     letters = [bank[letter] for letter in letters]
+    letters = [str(letter) for letter in letters]
 
     #join those letters into a single string
     plate = ''.join(letters)

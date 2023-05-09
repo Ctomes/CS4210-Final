@@ -30,6 +30,8 @@ def getBoxes(imgpred, threshold=.9999, blur=True, boxexpand = 0):
     x, y, w, h = cv2.boundingRect(contour)
     boxes.append((x, y, w, h))
 
+  #sort boxes left to right
+  boxes.sort()
   return boxes
 
 #used to crop an image, given the boxes to crop in form (x, y, w, h), and a numpy array of the image
@@ -67,10 +69,21 @@ def imgcrops(model, img, thresh = .9999, blr = True, erode = False, exp = 0):
   plt.imshow(img)
   plt.show()
   if erode:
-    img = cv2.dilate(img, None, iterations = 2)
+    img = cv2.dilate(img, None, iterations = 1)
 
   #return an array of cropped images from the boxes generated from the model
   boxes = getBoxes(predflipped, threshold=thresh, blur=blr)
   cropped_imgs = cropsFromBoxes(img, boxes, cropexpand = exp)
 
   return cropped_imgs
+
+def sharpen_image(image):
+    # Create the sharpening kernel
+    outside = 0.4
+    inside = 5
+    kernel = np.array([[-1,-1,-1], [-1,9.5,-1], [-1,-1,-1]])
+
+    # Apply the kernel to the image using filter2D
+    sharpened = cv2.filter2D(image, -1, kernel)
+
+    return sharpened
