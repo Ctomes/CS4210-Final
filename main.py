@@ -56,14 +56,28 @@ def main():
   # transform those plate images into sets of letter images
   letterSets = [imgcrops(letterModel, plate, erode = True, exp = 3) for plate in resizedPlates]
 
+  for letterSet in letterSets:
+     for letter in letterSet:
+      plt.imshow(cv2.resize(letter, (28, 28)))
+      plt.show()
+     
 
+
+
+  bank = []
+  for i in range(26):
+    bank.append(chr(i+65)) #use ascii offset
+  for i in range(10):
+    bank.append(i)
+
+  print(bank) 
 
   #Part 3: Individual letters from previous models to overall string prediction
   #may want to test with grayscaling the image first
   loadpath = 'ModelWeights/ConvNet3.pt'
   params = (3, 28, 28) #this IS a hyperparameter
   letterGuesser = convNet(params)
-  letterGuesser.load_state_dict(torch.load(loadpath))
+  letterGuesser.load_state_dict(torch.load(loadpath)) 
 
   #predict all the plates
   plates = []
@@ -72,8 +86,8 @@ def main():
     resizedLetters = [cv2.resize(letter, params) for letter in letterSet]
 
     #get a letter prediction for each letter
-    letters = [letterGuesser(letter) for letter in resizedLetters] #this line is likely incorrect
-    #most likely the letterguesser will return a number, not a string, something that will likely need to be smoothed out
+    letters = [torch.argmax(letterGuesser(letter)) for letter in resizedLetters]
+    letters = [bank[letter] for letter in letters]
 
     #join those letters into a single string
     plate = ''.join(letters)

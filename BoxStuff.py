@@ -64,6 +64,11 @@ def imgcrops(model, img, thresh = .9999, blr = True, erode = False, exp = 0):
   imgpred = model(torchimg) #removes the batch and restores the channels, as well as remove gradient
   predflipped = 1 - imgpred
 
+  plt.imshow(img)
+  plt.show()
+  if erode:
+    img = cv2.dilate(img, None, iterations = 2)
+
   #return an array of cropped images from the boxes generated from the model
   boxes = getBoxes(predflipped, threshold=thresh, blur=blr)
   cropped_imgs = cropsFromBoxes(img, boxes, cropexpand = exp)
