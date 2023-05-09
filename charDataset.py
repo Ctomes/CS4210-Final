@@ -46,6 +46,7 @@ class charDataset:
 
         #extract character
         img = img[pos['y']:(pos['y']+pos['height']), pos['x']:(pos['x']+pos['width']), :]
+        #print(img.max(), img.min())
 
         #resize for uniform data shape 
         #NOTE: it might be a good idea to change the original characters os that their shape is square before resizing, but depends on how model 2 dataset works
@@ -58,7 +59,7 @@ class charDataset:
         char = self.data[idx][2]
         result = self.bank[char]
         
-        return img, int(result)
+        return img/255, int(result)
 
     def sharpen_image(self, image):
         # Create the sharpening kernel
