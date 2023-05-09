@@ -63,21 +63,19 @@ def main():
      
 
 
-
-  bank = []
-  for i in range(26):
-    bank.append(chr(i+65)) #use ascii offset
-  for i in range(10):
-    bank.append(i)
-
-  print(bank) 
-
   #Part 3: Individual letters from previous models to overall string prediction
   #may want to test with grayscaling the image first
   loadpath = 'ModelWeights/ConvNet3.pt'
   params = (3, 28, 28) #this IS a hyperparameter
   letterGuesser = convNet(params)
   letterGuesser.load_state_dict(torch.load(loadpath)) 
+
+  #translations for the model
+  bank = []
+  for i in range(26):
+    bank.append(chr(i+65)) #use ascii offset
+  for i in range(10):
+    bank.append(i) 
 
   #predict all the plates
   plates = []
